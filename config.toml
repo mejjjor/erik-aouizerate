@@ -1,0 +1,26 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Erik Aouizerate"
+
+metaDataFormat = "toml"
+
+[[menu.main]]
+    name = "Home"
+    url = "#home"
+    weight = 0
+[[menu.main]]
+    name = "About"
+    url = "#about"
+    weight = 10
+[[menu.main]]
+    name = "Projects"
+    url = "#projects"
+    weight = 20
+[[menu.main]]
+    name = "Experiences"
+    url = "#experiences"
+    weight = 30
+[[menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 40

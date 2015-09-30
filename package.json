@@ -1,0 +1,22 @@
+{
+  "name": "erik",
+  "version": "1.0.0",
+  "description": "Erik's personal site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mejjjor/erik-aouizerate.git"
+  },
+  "author": "Erik Aouizerate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mejjjor/erik-aouizerate/issues"
+  },
+  "homepage": "https://github.com/mejjjor/erik-aouizerate#readme",
+  "dependencies": {
+    "pleeease": "^3.4.0"
+  }
+}

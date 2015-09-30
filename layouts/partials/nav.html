@@ -1,0 +1,16 @@
+<div id="nav-container">
+    <div class="title-container">
+        <h1 class="h1-like">
+        <a href="#">Erik Aouizerate</a>
+    </h1>
+    </div>
+    <nav>
+        <ul>
+            {{ range .Site.Menus.main }}
+            <li>
+                <a href="{{.URL}}">{{.Name}}</a>
+            </li>
+            {{end}}
+        </ul>
+    </nav>
+</div>

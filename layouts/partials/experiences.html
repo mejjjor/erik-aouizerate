@@ -1,0 +1,22 @@
+<h2 class="h2-like">Experiences</h2>
+{{ range .Data.Pages }}
+	{{if eq .Type "xp"}}
+		<h3> {{.Params.fonction}} / {{.Params.company}} / {{.Params.city}} / {{.Params.start}} / {{.Params.end}} </h3>
+		<p>{{.Content}}</p>
+	{{end}}
+{{end}}
+
+<h2 class="h2-like">Education</h2>
+{{ range .Data.Pages }}
+	{{if eq .Type "education"}}
+		<h3> {{.Description}} / {{.Params.city}} / {{.Params.start}} / {{.Params.end}} </h3>
+		<p>{{.Content}}</p>
+	{{end}}
+{{end}}
+
+<h2 class="h2-like">Skills</h2>
+{{ range .Data.Pages }}
+	{{if eq .Type "skill"}}
+		<h3> {{.Params.icon}} / {{.Description}} / {{.Params.level}} </h3>
+	{{end}}
+{{end}}
