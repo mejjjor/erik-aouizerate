@@ -21,6 +21,6 @@
     },
     "scripts": {
         "clean": "rm -rf public/*",
-        "dev": "pleeease watch static/css/main.less node_modules/normalize.css/normalize.css to static/css/app.min.css"
+        "dev": "pleeease watch static/css/main.less node_modules/normalize.css/normalize.css node_modules/font-awesome/css/font-awesome.min.css to static/css/app.min.css"
     }
 }

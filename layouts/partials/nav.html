@@ -1,14 +1,19 @@
+<input type="checkbox" name="menu-toggle" id="menu-toggle" checked="checked" />
 <div id="nav-container">
-    <div class="title-container">
+    <div id="title-container">
         <h1 class="h1-like">
-        <a href="#">Erik Aouizerate</a>
-    </h1>
+            <a href="#">Erik</a>
+            <a href="#">Aouizerate</a>
+        </h1>
+        <label for="menu-toggle">
+            <i class="fa fa-bars fa-3x" id="menu-icon-i"></i>
+        </label>
     </div>
     <nav>
         <ul>
             {{ range .Site.Menus.main }}
             <li>
-                <a href="{{.URL}}">{{.Name}}</a>
+                <a href="{{.URL}}"><h3>{{.Name}}</h3></a>
             </li>
             {{end}}
         </ul>

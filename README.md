@@ -4,6 +4,11 @@
 - clone repository
 - npm install
 - npm run dev
-... to run pleeease post-processor
 - in other terminal run hugo server --watch
-... else, you couldn't stop first process with `ctrl+C`
+- go on localhost:1313
+
+##Stack
+- Hugo
+- pleeease
+- fontAwesome
+- npm
