@@ -1,22 +1,26 @@
 {
-  "name": "erik",
-  "version": "1.0.0",
-  "description": "Erik's personal site",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mejjjor/erik-aouizerate.git"
-  },
-  "author": "Erik Aouizerate",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mejjjor/erik-aouizerate/issues"
-  },
-  "homepage": "https://github.com/mejjjor/erik-aouizerate#readme",
-  "dependencies": {
-    "pleeease": "^3.4.0"
-  }
+    "name": "erik",
+    "version": "1.0.0",
+    "description": "Erik's personal site",
+    "main": "index.html",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mejjjor/erik-aouizerate.git"
+    },
+    "author": "Erik Aouizerate",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mejjjor/erik-aouizerate/issues"
+    },
+    "homepage": "https://github.com/mejjjor/erik-aouizerate#readme",
+    "dependencies": {
+        "font-awesome": "^4.4.0",
+        "normalize.css": "^3.0.3",
+        "pleeease": "^3.4.0"
+    },
+    "scripts": {
+        "clean": "rm -rf public/*",
+        "dev": "pleeease watch static/css/main.less node_modules/normalize.css/normalize.css to static/css/app.min.css"
+    }
 }
