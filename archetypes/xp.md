@@ -7,6 +7,9 @@ company="entreprise 1"
 city="Paris"
 start=""
 end=""
+duration = ""
+weight=0
+client=""
 +++
 
 - compétence 1

@@ -1,22 +1,37 @@
-<h2 class="h2-like">Experiences</h2>
-{{ range .Data.Pages }}
-	{{if eq .Type "xp"}}
-		<h3> {{.Params.fonction}} / {{.Params.company}} / {{.Params.city}} / {{.Params.start}} / {{.Params.end}} </h3>
-		<p>{{.Content}}</p>
+<article id="xp">
+	<h2><i class="fa fa-suitcase"></i>&nbsp;&nbsp;Experiences</h2>
+	{{ range .Data.Pages }}
+		{{if eq .Type "xp"}}
+			<h3>{{.Description}}</h3>
+			{{with .Params.client}}<h5>Client: {{ . }}</h5>{{end}}
+			<h6>{{.Params.city}} &mdash; {{.Params.start}} &mdash; {{.Params.end}} &mdash; {{.Params.duration}}</h6>
+			<p>{{.Content}}</p>
+		{{end}}
 	{{end}}
-{{end}}
-
-<h2 class="h2-like">Education</h2>
-{{ range .Data.Pages }}
-	{{if eq .Type "education"}}
-		<h3> {{.Description}} / {{.Params.city}} / {{.Params.start}} / {{.Params.end}} </h3>
-		<p>{{.Content}}</p>
+</article>
+<article id="skills">
+	<h2><i class="fa fa-flask"></i>&nbsp;&nbsp;Skills</h2>
+	<ul>
+	{{ range .Data.Pages }}
+		{{if eq .Type "skill"}}
+			<li><h3>{{with .Params.image}}<img src={{.}}>{{end}}
+			{{with .Params.icon}}<i class="fa fa-{{.}}">&nbsp;&nbsp;</i>{{end}}&nbsp;{{.Description}}</h3><span>{{.Params.grade}}</span></li>
+			<div class="progress-bar"><span style="width: {{.Params.level}}%"></span></div>
+		{{end}}
 	{{end}}
-{{end}}
-
-<h2 class="h2-like">Skills</h2>
-{{ range .Data.Pages }}
-	{{if eq .Type "skill"}}
-		<h3> {{.Params.icon}} / {{.Description}} / {{.Params.level}} </h3>
+	</ul>
+</article>
+<article id="education">
+	<h2 id="education"><i class="fa fa-graduation-cap"></i>&nbsp;&nbsp;Education</h2>
+	<table>
+	{{ range .Data.Pages }}
+		{{if eq .Type "education"}}
+				<tr>
+					<td class="date">{{.Params.end}}</td>
+					<td class="content	"><strong>{{.Params.degree}}</strong> {{.Description}} &mdash; {{.Params.university}}</td>
+				</tr>
+			
+		{{end}}
 	{{end}}
-{{end}}
+	</table>
+</article>

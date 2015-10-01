@@ -5,10 +5,6 @@ title = "Erik Aouizerate"
 metaDataFormat = "toml"
 
 [[menu.main]]
-    name = "HOME"
-    url = "#home"
-    weight = 0
-[[menu.main]]
     name = "ABOUT"
     url = "#about"
     weight = 10
