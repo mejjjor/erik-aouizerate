@@ -122,9 +122,16 @@ img.project {
     h5 {
         text-indent: 1.4rem;
         font-style: italic;
-        i{
+        i {
             display: none;
         }
+    }
+    img {
+        max-width: 100%;
+        max-height: 350px;
+    }
+    .project-image>div {
+        text-align: center;
     }
 }
 
@@ -226,9 +233,8 @@ Desktop theme
 ********************************/
 
 @media screen and (min-width: 768px) {
-
     body {
-        h2{
+        h2 {
             margin-top: 2rem;
             font-size: 1.6rem;
         }
@@ -265,41 +271,35 @@ Desktop theme
         .project-content {
             display: flex;
             >:first-child {
-                margin-right: 2rem;
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                width: 70%
+                width: 40%;
             }
             p {
                 margin-top: 0;
+                margin-left: 1rem;
             }
         }
         h5 {
             text-align: right;
             font-size: 1.2rem;
             margin-top: 0;
-            :first-child{
+            :first-child {
                 position: relative;
                 top: -1rem;
                 display: inline-block;
             }
-            :last-child{
+            :last-child {
                 position: relative;
                 bottom: -1rem;
                 display: inline-block;
             }
         }
-        h3{
+        h3 {
             font-size: 1.4rem;
             margin-left: 5rem;
             margin-top: 2rem;
         }
-        img {
-            margin-bottom: 1rem;
-        }
     }
-    #skills{
+    #skills {
         margin-right: 3rem;
     }
 }
@@ -317,7 +317,6 @@ Large theme
         padding: 0 4rem;
         margin: 0 -4rem;
     }
-   
 }
 
 
@@ -333,13 +332,14 @@ XLarge theme
         padding: 0 6rem;
         margin: 0 -6rem;
     }
-    #skills{
+    #skills {
         margin-right: 5rem;
     }
-    #experiences{
+    #experiences {
         margin-right: 5rem;
     }
 }
+
 
 /*******************************
 XXLarge theme
@@ -353,5 +353,4 @@ XXLarge theme
         padding: 0 10rem;
         margin: 0 -10rem;
     }
-   
 }

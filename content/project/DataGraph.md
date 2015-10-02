@@ -1,9 +1,10 @@
 +++
 date = "2015-09-29T19:42:20+02:00"
 description = "Créez et rendez compréhensible une arborescence complexe."
-image = "img/projects/dataGraph.png"
 title = "DataGraph"
 weight=0
+
+images = ["img/projects/dataGraph.png","img/skills/python.svg","img/skills/java.svg"]
 
 +++
 

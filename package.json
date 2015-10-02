@@ -1,26 +1,32 @@
 {
-    "name": "erik",
-    "version": "1.0.0",
-    "description": "Erik's personal site",
-    "main": "index.html",
-    "scripts": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mejjjor/erik-aouizerate.git"
-    },
-    "author": "Erik Aouizerate",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/mejjjor/erik-aouizerate/issues"
-    },
-    "homepage": "https://github.com/mejjjor/erik-aouizerate#readme",
-    "dependencies": {
-        "font-awesome": "^4.4.0",
-        "normalize.css": "^3.0.3",
-        "pleeease": "^3.4.0"
-    },
-    "scripts": {
-        "clean": "rm -rf public/*",
-        "dev": "pleeease watch static/css/main.less node_modules/normalize.css/normalize.css node_modules/font-awesome/css/font-awesome.min.css to static/css/app.min.css"
-    }
+  "name": "erik",
+  "version": "1.0.0",
+  "description": "Erik's personal site",
+  "main": "index.html",
+  "scripts": {
+    "clean": "rm -rf public/*",
+    "build:scripts": "mkdir -p public/static/js && browserify -d static/js/main.js -o static/js/app.min.js",
+    "build:styles": "pleeease watch static/css/* node_modules/normalize.css/normalize.css node_modules/font-awesome/css/font-awesome.min.css to static/css/app.min.css",
+    "dev": "npm run build:styles && npm run build:scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mejjjor/erik-aouizerate.git"
+  },
+  "author": "Erik Aouizerate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mejjjor/erik-aouizerate/issues"
+  },
+  "homepage": "https://github.com/mejjjor/erik-aouizerate#readme",
+  "dependencies": {
+    "font-awesome": "^4.4.0",
+    "jquery": "^2.1.4",
+    "normalize.css": "^3.0.3",
+    "slick-carousel": "^1.5.8"
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "pleeease": "^3.4.0"
+  }
 }

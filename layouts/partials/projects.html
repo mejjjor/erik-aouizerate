@@ -4,12 +4,16 @@
 		<h3><i class="fa fa-arrow-right"></i>&nbsp;{{.Title}}</h3>
 		
 		<div class="project-content">
-			<div>
-				<img class="project"  src="{{.Params.image}}"/>
+			<div class="project-image">
+			{{ range .Params.images }}
+				<div>
+					<img class="project" src="{{.}}"/>
+				</div>
+			{{end}}
 			</div>
 			<div>
-			<h5><i class="fa fa-quote-left"></i>&nbsp;&nbsp;{{.Description}}<i class="fa fa-quote-right"></i></h5>
-				{{.Content}}
+				<h5><i class="fa fa-quote-left"></i>&nbsp;&nbsp;{{.Description}}<i class="fa fa-quote-right"></i></h5>
+					{{.Content}}
 			</div>
 		</div>
 	{{end}}

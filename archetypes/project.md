@@ -1,7 +1,7 @@
 +++
 date= ""
 description= "un super projet"
-image= "1.jpg"
+images = ["img/projects/dataGraph.png","img/skills/python.svg","img/skills/java.svg"]
 title= ""
 weight=0
 +++
