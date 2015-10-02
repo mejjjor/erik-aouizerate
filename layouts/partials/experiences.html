@@ -1,4 +1,3 @@
-<article id="xp">
 	<h2><i class="fa fa-suitcase"></i>&nbsp;&nbsp;Experiences</h2>
 	{{ range .Data.Pages }}
 		{{if eq .Type "xp"}}
@@ -8,30 +7,3 @@
 			<p>{{.Content}}</p>
 		{{end}}
 	{{end}}
-</article>
-<article id="skills">
-	<h2><i class="fa fa-flask"></i>&nbsp;&nbsp;Skills</h2>
-	<ul>
-	{{ range .Data.Pages }}
-		{{if eq .Type "skill"}}
-			<li><h3>{{with .Params.image}}<img src={{.}}>{{end}}
-			{{with .Params.icon}}<i class="fa fa-{{.}}">&nbsp;&nbsp;</i>{{end}}&nbsp;{{.Description}}</h3><span>{{.Params.grade}}</span></li>
-			<div class="progress-bar"><span style="width: {{.Params.level}}%"></span></div>
-		{{end}}
-	{{end}}
-	</ul>
-</article>
-<article id="education">
-	<h2 id="education"><i class="fa fa-graduation-cap"></i>&nbsp;&nbsp;Education</h2>
-	<table>
-	{{ range .Data.Pages }}
-		{{if eq .Type "education"}}
-				<tr>
-					<td class="date">{{.Params.end}}</td>
-					<td class="content	"><strong>{{.Params.degree}}</strong> {{.Description}} &mdash; {{.Params.university}}</td>
-				</tr>
-			
-		{{end}}
-	{{end}}
-	</table>
-</article>

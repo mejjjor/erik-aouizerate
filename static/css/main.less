@@ -1,19 +1,22 @@
+/*******************************
+Main theme
+********************************/
+
 @avatarWidth : 180px;
 @mainColor: #049372;
 @secondColor: #034738;
 body {
     font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Arial", sans- serif;
-    a{
+    a {
         color: @secondColor;
-        &:hover{
+        &:hover {
             color: @mainColor;
         }
     }
-}
-
-article {
     padding: 0 0.5rem;
 }
+
+article {}
 
 p {
     text-align: justify;
@@ -30,8 +33,10 @@ p {
 #nav-container {
     background-color: @mainColor;
     font-family: 'Amaranth', sans-serif;
+    padding: 0 0.5rem;
+    margin: 0 -0.5rem;
     h1 {
-        margin: 0 0 0 0.5rem;
+        margin: 0;
         display: inline-block;
         a {
             letter-spacing: 0.4rem;
@@ -117,15 +122,24 @@ img.project {
     h5 {
         text-indent: 1.4rem;
         font-style: italic;
+        i{
+            display: none;
+        }
     }
 }
 
-#xp {
-    padding: 0;
-    h3,
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#experiences {
+    h3 {
+        margin: 0.2rem 0;
+    }
     h5,
     h6 {
-        margin: 0.2rem 0;
+        margin: 0.2rem 0 0 1rem;
     }
     >ul>li {
         list-style-type: none;
@@ -142,7 +156,7 @@ img.project {
 }
 
 #education {
-    padding: 0;
+    max-width: 400px;
     .date {
         vertical-align: top;
     }
@@ -158,10 +172,11 @@ img.project {
 }
 
 #skills {
-    padding: 0;
+    flex: 1 1 auto;
+    max-width: 400px;
     h3 {
         display: inline;
-        margin: 0;
+        margin: 0 2rem 0 0;
         img {
             width: 1.2rem;
             bottom: 0;
@@ -197,9 +212,146 @@ img.project {
         padding: 0 1rem;
     }
     li {
+        margin-bottom: 0.8rem;
         list-style-type: none;
-        a{
+        a {
             text-decoration: none;
         }
     }
+}
+
+
+/*******************************
+Desktop theme
+********************************/
+
+@media screen and (min-width: 768px) {
+
+    body {
+        h2{
+            margin-top: 2rem;
+            font-size: 1.6rem;
+        }
+        padding: 0 2rem;
+    }
+    #menu-toggle-icon {
+        display: none;
+    }
+    #title-container {
+        display: inline;
+    }
+    #nav-container {
+        padding: 0 2rem;
+        margin: 0 -2rem;
+        nav {
+            max-height: 300px;
+            margin-top: 2rem;
+            float: right;
+            ul {
+                display: flex;
+            }
+            li {
+                :hover {
+                    background-color: @mainColor;
+                    color: @secondColor;
+                }
+                h3 {
+                    padding: 0.5rem 0 0.5rem 1.5rem;
+                }
+            }
+        }
+    }
+    #projects {
+        .project-content {
+            display: flex;
+            >:first-child {
+                margin-right: 2rem;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                width: 70%
+            }
+            p {
+                margin-top: 0;
+            }
+        }
+        h5 {
+            text-align: right;
+            font-size: 1.2rem;
+            margin-top: 0;
+            :first-child{
+                position: relative;
+                top: -1rem;
+                display: inline-block;
+            }
+            :last-child{
+                position: relative;
+                bottom: -1rem;
+                display: inline-block;
+            }
+        }
+        h3{
+            font-size: 1.4rem;
+            margin-left: 5rem;
+            margin-top: 2rem;
+        }
+        img {
+            margin-bottom: 1rem;
+        }
+    }
+    #skills{
+        margin-right: 3rem;
+    }
+}
+
+
+/*******************************
+Large theme
+********************************/
+
+@media screen and (min-width: 980px) {
+    body {
+        padding: 0 4rem;
+    }
+    #nav-container {
+        padding: 0 4rem;
+        margin: 0 -4rem;
+    }
+   
+}
+
+
+/*******************************
+XLarge theme
+********************************/
+
+@media screen and (min-width: 1280px) {
+    body {
+        padding: 0 6rem;
+    }
+    #nav-container {
+        padding: 0 6rem;
+        margin: 0 -6rem;
+    }
+    #skills{
+        margin-right: 5rem;
+    }
+    #experiences{
+        margin-right: 5rem;
+    }
+}
+
+/*******************************
+XXLarge theme
+********************************/
+
+@media screen and (min-width: 1920px) {
+    body {
+        padding: 0 10rem;
+    }
+    #nav-container {
+        padding: 0 10rem;
+        margin: 0 -10rem;
+    }
+   
 }

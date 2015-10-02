@@ -1,0 +1,10 @@
+	<h2><i class="fa fa-flask"></i>&nbsp;&nbsp;Skills</h2>
+	<ul>
+	{{ range .Data.Pages }}
+		{{if eq .Type "skill"}}
+			<li><h3>{{with .Params.image}}<img src={{.}}>{{end}}
+			{{with .Params.icon}}<i class="fa fa-{{.}}">&nbsp;&nbsp;</i>{{end}}&nbsp;{{.Description}}</h3><span>{{.Params.grade}}</span></li>
+			<div class="progress-bar"><span style="width: {{.Params.level}}%"></span></div>
+		{{end}}
+	{{end}}
+	</ul>

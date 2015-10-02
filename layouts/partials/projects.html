@@ -1,10 +1,16 @@
 <h2><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;Projects</h2>
 {{ range .Data.Pages }}
 	{{if eq .Type "project"}}
+		<h3><i class="fa fa-arrow-right"></i>&nbsp;{{.Title}}</h3>
 		
-		<h3><i class="fa fa-check"></i> {{.Title}} </h3>
-		<h5>{{.Description}}</h5>
-		<img class="project"  src="{{.Params.image}}"/>
-		<p>{{.Content}}</p>
+		<div class="project-content">
+			<div>
+				<img class="project"  src="{{.Params.image}}"/>
+			</div>
+			<div>
+			<h5><i class="fa fa-quote-left"></i>&nbsp;&nbsp;{{.Description}}<i class="fa fa-quote-right"></i></h5>
+				{{.Content}}
+			</div>
+		</div>
 	{{end}}
 {{end}}

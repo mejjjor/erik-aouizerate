@@ -14,11 +14,23 @@
     <article id="projects">
         {{ partial "projects.html" . }}
     </article>
-    <article id="experiences">
-        {{ partial "experiences.html" . }}
-    </article>
-    <article id="contact">
-        {{ partial "contact.html" . }}
-    </article>
+    <div class="flex-container">
+            <article id="experiences">
+                {{ partial "experiences.html" . }}
+            </article>
+        <div class="flex-container">
+            <article id="skills">
+                {{ partial "skills.html" . }}
+            </article>
+            <div>
+            <article id="education">
+                {{ partial "education.html" . }}
+            </article>
+            <article id="contact">
+                {{ partial "contact.html" . }}
+            </article>
+            </div>
+        </div>
+    <div id="flex-container">
 </section>
 {{ partial "footer.html" . }}
