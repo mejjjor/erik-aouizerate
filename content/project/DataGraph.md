@@ -4,7 +4,7 @@ description = "Créez et rendez compréhensible une arborescence complexe."
 title = "DataGraph"
 weight=0
 
-images = ["img/projects/dataGraph.png","img/skills/python.svg","img/skills/java.svg"]
+images = ["img/projects/dataGraph.png","img/projects/dataGraph.png"]
 
 +++
 
