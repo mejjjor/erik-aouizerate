@@ -11,4 +11,9 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 3000
     });
+
 });
+
+function menuToggle() {
+    alert("zzz");
+}

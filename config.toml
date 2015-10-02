@@ -6,17 +6,17 @@ metaDataFormat = "toml"
 
 [[menu.main]]
     name = "ABOUT"
-    url = "#about"
+    url = "about"
     weight = 10
 [[menu.main]]
     name = "PROJECTS"
-    url = "#projects"
+    url = "projects"
     weight = 20
 [[menu.main]]
     name = "EXPERIENCES"
-    url = "#experiences"
+    url = "experiences"
     weight = 30
 [[menu.main]]
     name = "CONTACT"
-    url = "#contact"
+    url = "contact"
     weight = 40
