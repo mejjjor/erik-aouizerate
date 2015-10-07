@@ -2,18 +2,20 @@ baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Erik Aouizerate"
 
+publishdir = "public/en"
+
 metaDataFormat = "toml"
 
-contentdir = "content/fr"
+contentdir = "content/en"
 [params]
-    locale = "fr-FR"
+    locale = "en-US"
 
 [[menu.main]]
-    name = "A PROPOS"
+    name = "ABOUT"
     url = "about"
     weight = 10
 [[menu.main]]
-    name = "PROJETS"
+    name = "PROJECTS"
     url = "projects"
     weight = 20
 [[menu.main]]

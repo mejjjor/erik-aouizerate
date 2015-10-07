@@ -1,21 +1,43 @@
 <input type="checkbox" name="menu-toggle" id="menu-toggle" />
 <div id="nav-container">
-    <div id="title-container">
+    <div class="title-container">
         <h1>
             <a href="#">Erik</a>
             <a href="#">Aouizerate</a>
         </h1>
-        <label id ="menu-toggle-icon" for="menu-toggle">
-            <i class="fa fa-bars fa-2x" id="menu-icon-i"></i>
+        <label id="menu-toggle-icon" for="menu-toggle">
+            <i class="fa fa-bars fa-3x" id="menu-icon"></i>
         </label>
     </div>
     <nav>
         <ul>
-            {{ range .Site.Menus.main }}
-                <li>
-                    <a href="#{{.URL}}"><h3>{{.Name}}</h3></a>
-                </li>
+            {{range .Site.Menus.main}}
+            <li>
+                <a href="#{{.URL}}">
+                        <h3>{{.Name}}</h3>
+                </a>
+            </li>
             {{end}}
+            <li id="menu-lang">
+                <h3>
+                    {{ if eq .Site.Params.locale "en-US" }}
+                    <a href="/">
+                        en        
+                        <i class="fa fa-toggle-off"></i>
+                        fr
+                    </a>
+                    {{end}}
+                    {{ if eq .Site.Params.locale "fr-FR" }}
+                    <a href="/en">
+                        en
+                        <i class="fa fa-toggle-off fa-flip-horizontal"></i>
+                        fr
+                    </a>
+                    {{end}}
+                </h3>
+            </li>
         </ul>
     </nav>
 </div>
+{{ if eq .Site.Params.locale "en-US" }}
+<i class="fa fa-toggle-off"></i> {{end}}

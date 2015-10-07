@@ -11,9 +11,8 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 3000
     });
+    $('nav a').on('click',function(event){
+        $('#menu-toggle').attr('checked', false);
+    })
 
 });
-
-function menuToggle() {
-    alert("zzz");
-}
