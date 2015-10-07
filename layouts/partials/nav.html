@@ -23,14 +23,14 @@
                     {{ if eq .Site.Params.locale "en-US" }}
                     <a href="/">
                         en        
-                        <i class="fa fa-toggle-off"></i>
+                        <i class="fa fa-toggle-on fa-flip-horizontal"></i>
                         fr
                     </a>
                     {{end}}
                     {{ if eq .Site.Params.locale "fr-FR" }}
                     <a href="/en">
                         en
-                        <i class="fa fa-toggle-off fa-flip-horizontal"></i>
+                        <i class="fa fa-toggle-on"></i>
                         fr
                     </a>
                     {{end}}
@@ -39,5 +39,3 @@
         </ul>
     </nav>
 </div>
-{{ if eq .Site.Params.locale "en-US" }}
-<i class="fa fa-toggle-off"></i> {{end}}

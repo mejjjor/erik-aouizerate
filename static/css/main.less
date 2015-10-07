@@ -9,6 +9,7 @@ Mobile theme
 @marge: 5px;
 body {
     padding: @marge;
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Arial", sans- serif;
 }
 
 img {
@@ -17,6 +18,10 @@ img {
 
 p {
     text-align: justify;
+}
+
+h2 i {
+    margin-right: 15px;
 }
 
 #menu-toggle {
@@ -62,7 +67,6 @@ nav {
     a:hover {
         background-color: @secondColor;
     }
-    
     h3 {
         text-align: right;
         margin: 4px @marge*2 4px 0;
@@ -81,4 +85,102 @@ nav {
 
 #menu-toggle:checked ~ div nav {
     max-height: 300px;
+}
+
+///// intro
+#avatar {
+    height: @avatarWidth;
+    border-radius: 50%;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+#intro {
+    margin-bottom: 3rem;
+    :nth-child(1) {
+        text-align: left;
+        margin-left:calc(~"(100% - @{avatarWidth})/2 ");
+    }
+    :nth-child(2) {
+        display: block;
+        margin-right: calc(~"(100% - @{avatarWidth})/2 ");
+        text-align: right;
+    }
+    :nth-child(3) {
+        display: block;
+        margin-right: calc(~"(100% - @{avatarWidth})/2 + @{avatarWidth}/7");
+        text-align: right;
+    }
+    :nth-child(4) {
+        text-align: left;
+        margin-left:calc(~"(100% - @{avatarWidth})/2 + @{avatarWidth}/10");
+    }
+}
+
+#projects {
+    h5 {
+        :first-child {
+            position: relative;
+            top: -1rem/2;
+            right: 5px;
+            display: inline-block;
+        }
+        :last-child {
+            position: relative;
+            bottom: -1rem/2;
+            left: 5px;
+            display: inline-block;
+        }
+        text-align: center;
+    }
+}
+
+#experiences {
+    h3,
+    h5,
+    h6 {
+        margin: 0 0 0 10px;
+    }
+    h3 {
+        margin-bottom: 5px;
+    }
+    ul>li>ul>li {
+        font-size: 85%;
+    }
+}
+
+#skills {
+    img {
+        height: 2rem;
+    }
+    i {
+        font-size: 2rem;
+    }
+    ul {
+        padding-left: 10px;
+    }
+    li {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        span {
+            align-self: flex-end;
+            margin-bottom: 5px;
+        }
+    }
+    h3 {
+        margin: 5px 5px 5px 0;
+    }
+    .progress-bar {
+        height: 1rem;
+        background-color: #ebedef;
+        border-radius: 1rem;
+        span {
+            background-color: @secondColor;
+            display: block;
+            height: 100%;
+            border-radius: 1rem;
+        }
+        margin-bottom: 0.6rem;
+    }
 }
