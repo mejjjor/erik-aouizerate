@@ -21,8 +21,11 @@ p {
     text-align: justify;
 }
 
-h2 i {
-    margin-right: 15px;
+h2 {
+    margin-top: 30px;
+    i {
+        margin-right: 15px;
+    }
 }
 
 #menu-toggle {
@@ -181,11 +184,11 @@ nav {
         }
     }
     >div {
-        margin-left: 15px;
+        margin: 0 15px;
     }
     .skill {
         width: 100%;
-        max-width: 320px;
+        max-width: 400px;
     }
     h4 {
         margin: 5px 30px 5px 0;
@@ -315,6 +318,26 @@ Desktop theme
             // min-width: 300px;
         }
         .content {}
+    }
+    #skills {
+        .skill {
+            //   max-width: 400px;
+        }
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    h2 {
+    margin-top: 40px;
+}
+    #skills {
+        .skill {
+           // max-width: 400px;
+        }
+        // margin-right: 10px;
+    }
+    #education {
+        max-width: 500px;
     }
     #bottom-content {
         display: flex;
