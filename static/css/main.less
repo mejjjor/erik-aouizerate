@@ -241,6 +241,14 @@ nav {
     }
 }
 
+footer {
+    background-color: @mainColor;
+    font-size: 70%;
+    text-align: center;
+    margin: 10px -@marge -@marge -@marge;
+    padding: @marge @marge 10px @marge;
+}
+
 
 /*******************************
 Desktop theme
@@ -338,14 +346,16 @@ Desktop theme
             margin: auto;
         }
     }
-
-    #skills{
-            margin-right: 50px;
+    #skills {
+        margin-right: 50px;
     }
-
     #bottom-content {
         display: flex;
         flex-wrap: nowrap;
+    }
+    footer {
+        margin: 10px -40px -40px -40px;
+        padding: 10px 40px 10px 40px;
     }
 }
 
@@ -383,7 +393,10 @@ XLarge theme
             align-self: center;
         }
     }
-    
+    footer {
+        margin: 10px -100px -100px -100px;
+        padding: 10px 100px 10px 100px;
+    }
 }
 
 
@@ -399,6 +412,10 @@ XXLarge theme
         margin: -250px -250px -10px -250px;
         padding: 250px 250px 10px 250px;
     }
+    footer {
+        margin: 10px -250px -250px -250px;
+        padding: 10px 250px 10px 250px;
+    }
 }
 
 
@@ -413,5 +430,9 @@ XXXLarge theme
     #nav-container {
         margin: -350px -350px -10px -350px;
         padding: 350px 350px 10px 350px;
+    }
+    footer {
+        margin: 10px -350px -350px -350px;
+        padding: 10px 350px 10px 350px;
     }
 }
