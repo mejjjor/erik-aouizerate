@@ -8,7 +8,7 @@ $(document).ready(function() {
         dots: true,
         infinite: true,
         arrows: false,
-        autoplay: true,
+        //autoplay: true,
         autoplaySpeed: 3000
     });
     $('nav a').on('click',function(event){

@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf public/*",
     "build:scripts": "mkdir -p public/static/js && browserify -d static/js/main.js -o static/js/app.min.js",
-    "build:styles": "pleeease watch static/css/* node_modules/normalize.css/normalize.css node_modules/font-awesome/css/font-awesome.min.css to static/css/app.min.css",
+    "build:styles": "pleeease watch node_modules/normalize.css/normalize.css node_modules/font-awesome/css/font-awesome.min.css static/css/* to static/css/app.min.css",
     "dev": "npm run build:scripts && npm run build:styles"
   },
   "repository": {
