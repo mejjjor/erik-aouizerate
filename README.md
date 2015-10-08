@@ -4,7 +4,8 @@
 - clone repository
 - npm install
 - npm run dev
-- in other terminal run hugo server --watch
+- in other terminal `run hugo server --watch`
+- to compile english version : ` hugo --config="config-en.toml"`
 - go on localhost:1313
 
 ##Stack
