@@ -1,6 +1,6 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://mejjjor.github.io/erik-web"
 languageCode = "en-us"
-title = "Erik Aouizerate"
+title = "Erik Aouizerate - full stack developer"
 
 publishdir = "public/en"
 
@@ -9,6 +9,9 @@ metaDataFormat = "toml"
 contentdir = "content/en"
 [params]
     locale = "en-US"
+    description = "Erik Aouizerate's personal web site - skills and projects description"
+    generator="Hugo 0.14"
+    author = "Erik Aouizerate"
 
 [[menu.main]]
     name = "ABOUT"
