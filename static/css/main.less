@@ -180,10 +180,12 @@ nav {
             white-space: nowrap;
         }
     }
+    >div {
+        margin-left: 15px;
+    }
     .skill {
         width: 100%;
         max-width: 320px;
-        margin-left: 15px;
     }
     h4 {
         margin: 5px 30px 5px 0;
@@ -302,23 +304,35 @@ Desktop theme
             margin-right: 10px;
         }
     }
-    #experiences {
-        .flex-container {
-            display: flex;
-            flex-wrap: wrap;
-            
-    justify-content: space-between;
-        }
-        .flex-element {
-            max-width: 500px;
-            width: auto;
-            padding-right: 20px;
-        }
-    }
     .project-content {
         display: flex;
         :first-child {
             align-self: center;
+        }
+    }
+    #education {
+        tr {
+            // min-width: 300px;
+        }
+        .content {}
+    }
+    #bottom-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #experiences {
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .flex-element {
+            max-width: 550px;
+            margin-right: 20px;
         }
     }
 }
