@@ -1,16 +1,19 @@
 baseurl = "http://mejjjor.github.io/erik-web"
+canonifyurls = true
+metaDataFormat = "toml"
+
 languageCode = "en-us"
 title = "Erik Aouizerate - développeur informatique full stack"
 
-metaDataFormat = "toml"
-
 contentdir = "content/fr"
+
 
 [params]
     locale = "fr-FR"
     description = "Page personnelle d'Erik Aouizerate - compétences et projets réalisés"
     generator="Hugo 0.14"
     author = "Erik Aouizerate"
+    subdomain = "erik-web"
 
 [[menu.main]]
     name = "A PROPOS"
