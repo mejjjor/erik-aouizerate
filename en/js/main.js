@@ -6,7 +6,6 @@ $(document).ready(function() {
         $('.project-image').each(function(i) {
             var delay = 4000 + (Math.random() + (i % 4)) * 1000;
             $(this).slick({
-                lazyLoad: 'ondemand',
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 dots: true,
@@ -16,7 +15,7 @@ $(document).ready(function() {
                 autoplaySpeed: delay
             });
         });
-    }, 1500);
+    }, 500);
     $('nav a').on('click', function(event) {
         $('#menu-toggle').attr('checked', false);
     })
