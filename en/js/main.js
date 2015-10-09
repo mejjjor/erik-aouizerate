@@ -13,10 +13,10 @@ $(document).ready(function() {
                 infinite: true,
                 arrows: false,
                 autoplay: true,
-                autoplaySpeed: 2000
+                autoplaySpeed: delay
              });
          });
-     }, 100);
+     }, 300);
     $('nav a').on('click', function(event) {
         $('#menu-toggle').attr('checked', false);
     })
