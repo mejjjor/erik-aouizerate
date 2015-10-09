@@ -2,7 +2,7 @@ var $ = require('../../node_modules/jquery/dist/jquery.min.js');
 var slick = require('./slick.js');
 
 $(document).ready(function() {
-    // setTimeout(function() {
+    setTimeout(function() {
         $('.project-image').each(function(i) {
             var delay = 4000 + (Math.random() + (i % 4)) * 1000;
             $(this).slick({
@@ -16,7 +16,7 @@ $(document).ready(function() {
                 autoplaySpeed: delay
             });
         });
-    // }, 500);
+    }, 500);
     $('nav a').on('click', function(event) {
         $('#menu-toggle').attr('checked', false);
     })
