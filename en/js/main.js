@@ -3,8 +3,8 @@ var slick = require('./slick.js');
 
 $(document).ready(function() {
      setTimeout(function() {
-    //     $('.project-image').each(function(i) {
-    //         var delay = 4000 + (Math.random() + (i % 4)) * 1000;
+        $('.project-image').each(function(i) {
+            var delay = 4000 + (Math.random() + (i % 4)) * 1000;
             $('.project-image').slick({
                 lazyLoad: 'ondemand',
                 slidesToShow: 1,
@@ -15,7 +15,7 @@ $(document).ready(function() {
                 autoplay: true,
                 autoplaySpeed: 2000
              });
-    //     });
+         });
      }, 100);
     $('nav a').on('click', function(event) {
         $('#menu-toggle').attr('checked', false);
