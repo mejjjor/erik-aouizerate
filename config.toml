@@ -1,5 +1,6 @@
 baseurl = "http://mejjjor.github.io/erik-web"
 canonifyurls = true
+disableRSS=true
 metaDataFormat = "toml"
 
 languageCode = "en-us"
