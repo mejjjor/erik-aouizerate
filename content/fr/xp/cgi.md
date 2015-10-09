@@ -7,7 +7,7 @@ duration = "18 mois"
 title = "cgi"
 client="ST Microelectronics"
 description="Analyste développeur chez CGI"
-weight=0
+weight=10
 +++
 
 - Programmation d'un moteur générique de workflow

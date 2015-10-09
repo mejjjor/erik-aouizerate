@@ -1,0 +1,30 @@
+<header id="#home">
+    {{ partial "nav.html" . }}
+    {{ partial "intro.html" . }}
+</header>
+<section>
+    <article id="about">
+        {{ partial "about.html" . }}
+    </article>
+    <article id="projects">
+        {{ partial "projects.html" . }}
+    </article>
+    <div>
+            <article id="experiences">
+                {{ partial "experiences.html" . }}
+            </article>
+        <div id="bottom-content">
+            <article id="skills">
+                {{ partial "skills.html" . }}
+            </article>
+            <div>
+                <article id="education">
+                    {{ partial "education.html" . }}
+                </article>
+                <article id="contact">
+                    {{ partial "contact.html" . }}
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
