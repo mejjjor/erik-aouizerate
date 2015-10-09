@@ -1,0 +1,442 @@
+/*******************************
+Mobile theme
+********************************/
+
+////// General 
+@avatarWidth : 180px;
+@mainColor: #049372;
+@secondColor: #034738;
+@marge: 5px;
+@margeInter: 10px;
+body {
+    padding: @marge;
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Arial", sans- serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 i {
+    margin-right: 15px;
+}
+
+a {
+    color: @mainColor;
+    :hover {
+        color: @secondColor;
+    }
+    &:hover {
+        color: @secondColor;
+    }
+}
+
+#menu-toggle {
+    display: none;
+}
+
+////// header 
+#nav-container {
+    font-family: 'Amaranth', sans-serif;
+    background-color: @mainColor;
+    margin: -@marge -@marge 0 -@marge;
+    padding-top: @marge;
+    a {
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+    h1 {
+        margin: 0;
+        line-height: 90%;
+        a~a {
+            margin-left: 23px;
+        }
+    }
+    h3 a {
+        display: inline-block;
+    }
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    position: absolute;
+    background-color: @mainColor;
+    width: 100%;
+    margin-top: -1px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s linear;
+    a:hover {
+        background-color: @secondColor;
+    }
+    h3 {
+        text-align: right;
+        margin: 4px @marge*2 4px 0;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style-type: none;
+    }
+}
+
+#menu-toggle-icon {
+    margin: auto @marge auto 0;
+}
+
+#menu-toggle:checked ~ div nav {
+    max-height: 300px;
+}
+
+#menu-lang-desktop {
+    display: none;
+}
+
+///// intro
+#avatar {
+    height: @avatarWidth;
+    border-radius: 50%;
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+#intro {
+    margin-bottom: 40px;
+    :nth-child(1) {
+        text-align: left;
+        margin-left:calc(~"(100% - @{avatarWidth})/2 ");
+    }
+    :nth-child(2) {
+        display: block;
+        margin-right: calc(~"(100% - @{avatarWidth})/2 ");
+        text-align: right;
+    }
+    :nth-child(3) {
+        display: block;
+        margin-right: calc(~"(100% - @{avatarWidth})/2 + @{avatarWidth}/7");
+        text-align: right;
+    }
+    :nth-child(4) {
+        text-align: left;
+        margin-left:calc(~"(100% - @{avatarWidth})/2 + @{avatarWidth}/10");
+    }
+}
+
+#projects {
+    h3 {
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+    h5 {
+        :first-child {
+            position: relative;
+            top: -1rem/2;
+            right: 5px;
+            display: inline-block;
+        }
+        :last-child {
+            position: relative;
+            bottom: -1rem/2;
+            left: 5px;
+            display: inline-block;
+        }
+        text-align: center;
+    }
+    img {
+        //max-height: 80vh;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+#experiences {
+    h3,
+    h5,
+    h6 {
+        margin: 0 0 0 @margeInter;
+    }
+    h3 {
+        margin-bottom: 5px;
+    }
+    ul>li>ul>li {
+        font-size: 85%;
+    }
+}
+
+#skills {
+    img {
+        width: 1.5rem;
+    }
+    i {
+        font-size: 1.5rem;
+        margin-right: 5px;
+    }
+    max-width: 100%;
+    .flex-container {
+        padding-left: @margeInter;
+        display: flex;
+        justify-content: space-between;
+        span {
+            margin-bottom: 5px;
+            align-self: flex-end;
+            white-space: nowrap;
+            font-size: 85%;
+        }
+    }
+    >div {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .skill {
+        width: 100%;
+        max-width: 320px;
+    }
+    h4 {
+        margin: 5px 20px 5px 0;
+        white-space: nowrap;
+    }
+    .progress-bar {
+        height: 10px;
+        background-color: #ebedef;
+        border-radius: 5px;
+        span {
+            background-color: @secondColor;
+            display: block;
+            height: 100%;
+            border-radius: 5px;
+        }
+        margin-bottom: 10px;
+    }
+}
+
+#education {
+    .date {
+        min-width: 60px;
+        vertical-align: top;
+    }
+    td {
+        padding-top: 10px;
+    }
+}
+
+#contact {
+    ul {
+        padding-left: @margeInter;
+    }
+    li {
+        list-style-type: none;
+        margin-top: 10px;
+    }
+    i {
+        margin-right: 20px;
+    }
+}
+
+footer {
+    background-color: @mainColor;
+    font-size: 70%;
+    text-align: center;
+    margin: 10px -@marge -@marge -@marge;
+    padding: @marge @marge 10px @marge;
+}
+
+
+/*******************************
+Desktop theme
+********************************/
+
+@media only screen and (min-width: 768px) {
+    body {
+        padding: 10px 40px;
+    }
+    ////// header 
+    #nav-container {
+        margin: -40px -40px -10px -40px;
+        padding: 40px 40px 10px 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    #menu-toggle-icon {
+        display: none;
+    }
+    nav {
+        position: static;
+        max-height: 200px;
+        width: auto;
+        display: flex;
+        align-items: flex-end;
+        ul {
+            display: flex;
+            margin: 0;
+        }
+        h3 {
+            margin: 0 10px;
+        }
+        a:hover {
+            background-color: inherit;
+        }
+    }
+    #menu-lang {
+        display: none;
+    }
+    #menu-lang-desktop {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 0px;
+        margin: 0;
+        text-align: center;
+        i {
+            line-height: 0.9rem;
+        }
+        a {
+            color: @secondColor;
+            :nth-child(3) {
+                display: none;
+            }
+        }
+        a:hover {
+            background-color: @mainColor;
+            :nth-child(3) {
+                display: inherit;
+            }
+            :nth-child(2) {
+                display: none;
+            }
+        }
+        span {
+            display: block;
+        }
+    }
+    #projects {
+        padding-bottom: 1px;
+        .project-image {
+            max-width: 500px;
+            margin-right: 30px;
+        }
+        .project-image-container {
+            max-width: 50%;
+        }
+        h3 {
+            margin-bottom: 0px;
+        }
+        h5 {
+            text-align: right;
+            margin-right: 10px;
+            margin-top: 0;
+        }
+    }
+    .project-content {
+        display: flex;
+        margin-bottom: 50px;
+        :first-child {
+            align-self: center;
+        }
+        :last-child {
+            margin: auto;
+        }
+    }
+    #skills {
+        margin-right: 50px;
+        .skill {
+            width: 560px;
+        }
+    }
+    #bottom-content {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    footer {
+        margin: 10px -40px -40px -40px;
+        padding: 10px 40px 10px 40px;
+    }
+}
+
+
+/*******************************
+XLarge theme
+********************************/
+
+@media only screen and (min-width: 1280px) {
+    body {
+        padding: 10px 100px;
+    }
+    #nav-container {
+        margin: -100px -100px -10px -100px;
+        padding: 100px 100px 10px 100px;
+    }
+    h2 {
+        margin-top: 30px;
+    }
+    #experiences {
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .flex-element {
+            max-width: 48%;
+            width: auto;
+            padding-right: 20px;
+        }
+    }
+    .project-content {
+        display: flex;
+        :first-child {
+            align-self: center;
+        }
+    }
+    footer {
+        margin: 10px -100px -100px -100px;
+        padding: 10px 100px 10px 100px;
+    }
+}
+
+
+/*******************************
+XXLarge theme
+********************************/
+
+@media only screen and (min-width: 1600px) {
+    body {
+        padding: 10px 250px;
+    }
+    #nav-container {
+        margin: -250px -250px -10px -250px;
+        padding: 250px 250px 10px 250px;
+    }
+    footer {
+        margin: 10px -250px -250px -250px;
+        padding: 10px 250px 10px 250px;
+    }
+}
+
+
+/*******************************
+XXXLarge theme
+********************************/
+
+@media only screen and (min-width: 1920px) {
+    body {
+        padding: 10px 350px;
+    }
+    #nav-container {
+        margin: -350px -350px -10px -350px;
+        padding: 350px 350px 10px 350px;
+    }
+    footer {
+        margin: 10px -350px -350px -350px;
+        padding: 10px 350px 10px 350px;
+    }
+}
