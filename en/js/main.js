@@ -16,7 +16,7 @@ $(document).ready(function() {
                 autoplaySpeed: delay
             });
         });
-    }, 500);
+    }, 1500);
     $('nav a').on('click', function(event) {
         $('#menu-toggle').attr('checked', false);
     })
