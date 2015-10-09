@@ -13,8 +13,7 @@ $(document).ready(function() {
                 infinite: true,
                 arrows: false,
                 autoplay: true,
-                autoplaySpeed: 2000,
-                adaptiveHeight: true
+                autoplaySpeed: 2000
              });
     //     });
      }, 100);
