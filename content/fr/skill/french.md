@@ -6,7 +6,7 @@ icon = "language"
 img = ""
 level = 100
 grade = "langue maternelle"
-title = "french"
+title = "Français"
 weight = 0
 
 +++

@@ -1,5 +1,5 @@
-baseurl = "http://mejjjor.github.io/erik-web"
-
+baseurl = "http://mejjjor.github.io/erik-aouizerate/en"
+disableRSS=true
 metaDataFormat = "toml"
 
 languageCode = "en-us"
@@ -13,7 +13,7 @@ contentdir = "content/en"
     description = "Erik Aouizerate's personal web site - skills and projects description"
     generator="Hugo 0.14"
     author = "Erik Aouizerate"
-    subdomain = "erik-web"
+    subdomain = "erik-aouizerate"
 
 [[menu.main]]
     name = "ABOUT"

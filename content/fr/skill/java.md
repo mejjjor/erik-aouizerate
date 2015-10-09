@@ -1,12 +1,12 @@
 +++
 date = "2015-10-01T17:35:21+02:00"
 description = "Java"
-grade = "good"
+grade = "expert"
 icon = ""
 image = "img/skills/java.svg"
-level = 70
+level = 80
 title = "java"
-weight = 30
+weight = 50
 
 +++
 

@@ -10,7 +10,7 @@ description="Analyste développeur chez CGI"
 weight=0
 +++
 
-- Programmation d'un moteur générique de workflow en PL/SQL
+- Programmation d'un moteur générique de workflow
    - Conception et force de proposition pour répondre aux besoins du client
    - Création d'une application de test appliquée au moteur générique
    - Réalisation d'une interface web ergonomique en AngularJS pour les utilisateurs
