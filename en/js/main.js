@@ -6,6 +6,7 @@ $(document).ready(function() {
         $('.project-image').each(function(i) {
             var delay = 4000 + (Math.random() + (i % 4)) * 1000;
             $(this).slick({
+                lazyLoad: 'ondemand',
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 dots: true,
