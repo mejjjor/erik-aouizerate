@@ -1,4 +1,4 @@
-baseurl = "http://mejjjor.github.io/erik-aouizerate"
+baseurl = "http://erik-aouizerate.me"
 relativeURLs=true
 disableRSS=true
 metaDataFormat = "toml"
@@ -14,7 +14,6 @@ contentdir = "content/fr"
     description = "Page personnelle d'Erik Aouizerate - compétences et projets réalisés"
     generator="Hugo 0.14"
     author = "Erik Aouizerate"
-    subdomain = "erik-aouizerate"
 
 [[menu.main]]
     name = "A PROPOS"

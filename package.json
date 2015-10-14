@@ -7,7 +7,10 @@
     "clean": "rm -rf public/*",
     "build:scripts": "mkdir -p public/static/js && browserify -d static/js/main.js -o static/js/app.min.js",
     "build:styles": "pleeease watch node_modules/normalize.css/normalize.css node_modules/font-awesome/css/font-awesome.min.css static/css/* to static/css/app.min.css",
-    "dev": "npm run build:scripts && npm run build:styles"
+    "dev": "npm run build:scripts && npm run build:styles",
+    
+    "browserify" :"browserify -d public/js/main.js -o public/js/app.min.js",
+    "choki": "chokidar 'public/js/main.js' -c 'echo `date` && npm run browserify -s'"
   },
   "repository": {
     "type": "git",

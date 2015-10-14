@@ -1,11 +1,9 @@
 
 {{ partial "header.html" . }}
-
 {{ if eq .Site.Params.locale "en-US" }}
 {{ partial "english.html" . }}
 {{end}}
 {{ if eq .Site.Params.locale "fr-FR" }}
 {{ partial "french.html" . }}
 {{end}}
-
 {{ partial "footer.html" . }}
