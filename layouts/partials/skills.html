@@ -4,7 +4,9 @@
     <div class="skill">
         <div class="flex-container">
             <h4>{{with .Params.image}}<img src={{.}}>{{end}}
-			{{with .Params.icon}}<i class="fa fa-{{.}}"></i>{{end}}{{.Description}}</h4><span>{{.Params.grade}}</span>
+			{{with .Params.icon}}<i class="fa fa-{{.}}"></i>{{end}}{{.Description}}
+			{{with .Params.cv}}<a href="{{.}}" target="_blank"><i class="fa fa-share-alt iconCV"></i></a>{{end}}</h4>
+            <span>{{.Params.grade}}</span>
         </div>
         <div class="progress-bar"><span style="width: {{.Params.level}}%"></span></div>
     </div>

@@ -6,7 +6,7 @@ icon = "database"
 image = ""
 level = 70
 title = "sql"
-weight = 110
+weight = 70
 
 +++
 

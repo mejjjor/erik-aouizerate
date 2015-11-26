@@ -3,7 +3,7 @@
 		{{ range .Data.Pages }}
 			{{if eq .Type "xp"}}
 				<div class="flex-element">
-					<h3>{{.Description}}</h3>
+					<h3>{{.Description}} {{with .Params.cv}}<a href="{{.}}" target="_blank"><i class="fa fa-share-alt iconCV"></i></a>{{end}}</h3>
 					{{with .Params.client}}<h5>Client: {{ . }}</h5>{{end}}
 					<h6>{{.Params.city}} &mdash; {{.Params.start}} &mdash; {{.Params.end}} &mdash; {{.Params.duration}}</h6>
 					{{.Content}}

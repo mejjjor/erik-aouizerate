@@ -6,6 +6,7 @@ image= "img/skills/javascript.svg"
 level = 70
 title = "javascript"
 grade = "confortable"
-weight=30
+weight=20
+cv="dataGraphExample/filters/js.html"
 +++
 

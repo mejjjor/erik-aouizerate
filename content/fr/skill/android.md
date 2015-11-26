@@ -6,7 +6,7 @@ icon = ""
 image = "img/skills/android-icon.svg"
 level = 50
 title = "android"
-weight = 60
+weight = 50
 
 +++
 

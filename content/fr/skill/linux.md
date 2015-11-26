@@ -6,7 +6,7 @@ icon = "linux"
 image = ""
 level = 65
 title = "linux"
-weight = 90
+weight = 60
 
 +++
 

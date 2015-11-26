@@ -8,6 +8,7 @@ title = "cgi"
 client="ST Microelectronics"
 description="Analyste développeur chez CGI"
 weight=10
+cv="dataGraphExample/filters/cgi.html"
 +++
 
 - Programmation d'un moteur générique de workflow

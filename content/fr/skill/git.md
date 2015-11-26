@@ -6,7 +6,7 @@ icon = ""
 image = "img/skills/git-icon.svg"
 level = 30
 title = "git"
-weight = 100
+weight = 80
 
 +++
 

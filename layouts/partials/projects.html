@@ -1,7 +1,8 @@
 <h2><i class="fa fa-paper-plane"></i>Projets</h2>
 {{ range .Data.Pages }}
 	{{if eq .Type "project"}}
-		<h3><i class="fa fa-arrow-right"></i>{{.Title}}</h3>
+		<h3><i class="fa fa-arrow-right"></i>{{.Title}}
+		{{with .Params.cv}}<a href="{{.}}" target="_blank"><i class="fa fa-share-alt iconCV"></i></a>{{end}}</h3>
 		
 		<div class="project-content">
 			<div class="project-image-container">

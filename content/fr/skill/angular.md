@@ -6,7 +6,7 @@ icon = ""
 image = "img/skills/angular-icon.svg"
 level = 75
 title = "angular"
-weight = 40
+weight = 30
 
 +++
 
