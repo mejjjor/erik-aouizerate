@@ -14,5 +14,6 @@ Pour cela, l'information peut être filtrée de manière chronologique et théma
 Trois outils sont à votre disposition :  
 - Vous pouvez explorer mes compétences grace a mon [CV interactif](https://mejjjor.github.io/dataGraphExample/)  
 - Vous pouvez créer votre propre CV interactif grâce au [data-graph editor](https://mejjjor.github.io/dataGraphExample/editor.html)  
-- Vous pouvez visualiser votre création grâce au [data-graph visualisator](https://mejjjor.github.io/dataGraphExample/visualisator.html)  
+- Vous pouvez visualiser votre création grâce au [data-graph visualisator](https://mejjjor.github.io/dataGraphExample/visualisator.html)
+
 Le code source est disponible sur [GitHub](https://github.com/mejjjor/dataGraph).
