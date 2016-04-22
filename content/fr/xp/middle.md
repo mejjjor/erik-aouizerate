@@ -16,7 +16,9 @@ cv="dataGraphExample/filters/middle.html"
    - Mise en place des contraintes d'intégrités du système
    - Implémentation des jeux de tests
    - Redaction des rapports de recherche : [rapport 1](/documents/CIR_EA3EA2) / [rapport 2](/documents/CIR_EA3)
+   - Technologies utilisées : java 8, git
 - Développement du SI interne
    - Réalisation du module de gestion de la planification des interventions
-   - Amélioration de la qualit du code à l'aide de [sonar](http://www.sonarqube.org/)
+   - Amélioration de la qualité du code à l'aide de [sonar](http://www.sonarqube.org/)
    - Colaboration, échange et entraide avec les autre équipes
+   - Technologies utilisées : java 5, jsf 2, ejb3, svn, jira
