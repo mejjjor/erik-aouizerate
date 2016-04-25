@@ -1,12 +1,12 @@
 +++
-date = "2015-10-09T14:10:31+02:00"
-description = "Javascript"
-grade = "good"
+date = "2015-10-09T14:08:15+02:00"
+description = "Git"
+grade = "beginner"
 icon = ""
-image = "img/skills/javascript.svg"
+image = "img/skills/git-icon.svg"
 level = 30
 title = "git"
-weight = 0
+weight = 80
 
 +++
 

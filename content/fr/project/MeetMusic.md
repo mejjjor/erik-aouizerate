@@ -12,7 +12,7 @@ images = ["img/projects/meetMusic.png","img/projects/meetMusic_2.png","img/proje
 
 Le cas d'utilisation est le suivant :
 
-- Un terminal est le owner de la playlist, c'est lui qui diffusera le son et aura certains privilèges
+- Un terminal est le propriétaire de la playlist, c'est lui qui diffusera le son et aura certains privilèges
 - Les autres terminaux sont des contributeurs et peuvent modifier la playlist
 
 Afin de simplifier l'utilisation de cette application, il suffit de partager l'url de la playlist pour y accéder et la modifier.  
@@ -24,3 +24,5 @@ Ce projet présente quelques limitations :
 - La technologie est jeune et n'est pas completement implémenté dans les navigateurs (Safari par exemple)
 - Il semblerait que les opérateurs téléphoniques n'autorisent pas encore ce type de connexion sur les réseaux mobiles (3G ou 4G)
 - L'absence de serveur faisant office d'autorité centrale oblige à utilisé la technologie [bitcoin / blockchain](https://bitcoin.org/bitcoin.pdf) et notamment [ethereum](https://www.ethereum.org/) pour garantir l'identité du proprietaire de la playlist
+
+Le code source est disponible sur [GitHub](https://github.com/mejjjor/meetMusic).
