@@ -11,14 +11,14 @@ weight=10
 cv="dataGraphExample/filters/cgi.html"
 +++
 
-- Generic workflow engine developpment
-   - Conception and proposition to fit the custommer needs
-   - Create a test application apply to generic engine
-   - Realize a friendly user interface 
+- Generic workflow engine development
+   - Conception and proposition to fit custommer needs
+   - Create a test application and apply to generic engine
+   - Create a friendly user interface 
    - Optimisation to satisfy performance constraints
    - Technologies : javascript, angularJS, PLsql, svn
 - Projet monitoring 
-   - Preparation et participation to pilotage comity
+   - Preparation and participation to pilotage committee
    - Custommer relation management and users main contact person
-   - Level 2 support and english communication with coworkers
-   - Capitalize and skills transfert
+   - Level 2 support and English communication with coworkers
+   - Capitalise and skills transfert

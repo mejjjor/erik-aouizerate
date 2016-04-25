@@ -11,14 +11,14 @@ weight=0
 cv="dataGraphExample/filters/middle.html"
 +++
 
-- Realisation of a storage engine object oriented
+- Realisation of an object oriented storage engine
    - Développement of immutability module
    - Adding integrity constraint to the system
-   - Tests set implementation
-   - Research repport writting : [repport 1](/documents/CIR_EA3EA2) / [repport 2](/documents/CIR_EA3)
+   - Test set implementation
+   - Research repport writing : [repport 1](/documents/CIR_EA3EA2) / [repport 2](/documents/CIR_EA3)
    - Technologies : java 8, git
-- Developpement of information system
-   - Realisation of the monitoring interventions' module
+- Developpement of the information system
+   - Realisation of the monitoring intervention module
    - Code quality improvement with [sonar](http://www.sonarqube.org/)
    - Cooperation, exchange and mutual help with others teams
    - Technologies : java 5, jsf 2, ejb3, svn, jira
