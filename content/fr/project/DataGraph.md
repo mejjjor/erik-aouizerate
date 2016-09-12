@@ -3,7 +3,6 @@ date = "2015-09-29T19:42:20+02:00"
 description = "Créer et rendre compréhensible une arborescence complexe."
 title = "DataGraph"
 weight=0
-cv="dataGraphExample/filters/dataGraph.html"
 
 images = ["img/projects/dataGraph.png","img/projects/dataGraph_2.png"]
 

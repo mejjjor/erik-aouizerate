@@ -8,7 +8,6 @@ title = "cgi"
 client="ST Microelectronics"
 description="Developer at CGI"
 weight=10
-cv="dataGraphExample/filters/cgi.html"
 +++
 
 - Generic workflow engine development

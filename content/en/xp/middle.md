@@ -8,7 +8,6 @@ title = "middle"
 client="Globecast"
 description="developer J2EE at Middleware factory"
 weight=0
-cv="dataGraphExample/filters/middle.html"
 +++
 
 - Realisation of an object oriented storage engine

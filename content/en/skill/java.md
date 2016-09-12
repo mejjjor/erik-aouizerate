@@ -7,7 +7,6 @@ image = "img/skills/java.svg"
 level = 80
 title = "java"
 weight = 40
-cv="dataGraphExample/filters/java.html"
 
 +++
 

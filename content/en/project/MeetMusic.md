@@ -3,7 +3,6 @@ date = "2015-09-29T19:42:20+02:00"
 description = "Create and use a collaborative and decentralized playlist."
 title = "MeetMusic"
 weight=20
-cv="dataGraphExample/filters/dataGraph.html"
 
 images = ["img/projects/meetMusic.png","img/projects/meetMusic_2.png","img/projects/meetMusic_3.png"]
 

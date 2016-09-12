@@ -7,6 +7,5 @@ level = 70
 title = "javascript"
 grade = "confortable"
 weight=20
-cv="dataGraphExample/filters/js.html"
 +++
 

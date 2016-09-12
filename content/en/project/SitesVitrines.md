@@ -3,7 +3,6 @@ date = "2015-09-29T19:42:20+02:00"
 description = "Create a showcase web site that is easy to manage."
 title = "Showcase websites"
 weight=30
-cv="dataGraphExample/filters/dataGraph.html"
 
 images = ["img/projects/vitrine_erik.png","img/projects/vitrine_mano.png"]
 

@@ -8,7 +8,6 @@ title = "middle"
 client="Globecast"
 description="Développeur J2EE chez Middleware factory"
 weight=0
-cv="dataGraphExample/filters/middle.html"
 +++
 
 - Réalisation d'un moteur de persistance dynamique orienté objet 

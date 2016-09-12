@@ -3,7 +3,6 @@ date = "2015-09-29T19:42:20+02:00"
 description = "Créer un site vitrine facilement administrable par l'utilisateur."
 title = "Sites vitrines"
 weight=30
-cv="dataGraphExample/filters/dataGraph.html"
 
 images = ["img/projects/vitrine_erik.png","img/projects/vitrine_mano.png"]
 
