@@ -7,7 +7,7 @@ weight=0
 images = ["img/projects/dataGraph.png","img/projects/dataGraph_2.png"]
 
 +++
-I have built an interactive CV to allow my future coworkers to navigate and visualise my skills in a simple and concise way.  
+I have built an interactive CV to allow my future coworkers to navigate and visualize my skills in a simple and concise way.  
 Information can be filtered by date and by theme.
 
 Three tools are available:
