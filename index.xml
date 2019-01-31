@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Erik Aouizerate - développeur informatique full stack</title>
+    <link>http://erik-aouizerate.me/</link>
+    <description>Recent content on Erik Aouizerate - développeur informatique full stack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Oct 2015 14:03:10 +0200</lastBuildDate>
+    
+	<atom:link href="http://erik-aouizerate.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>licence</title>
+      <link>http://erik-aouizerate.me/education/licence/</link>
+      <pubDate>Thu, 01 Oct 2015 14:03:10 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/education/licence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iut</title>
+      <link>http://erik-aouizerate.me/education/iut/</link>
+      <pubDate>Thu, 01 Oct 2015 14:03:16 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/education/iut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>english</title>
+      <link>http://erik-aouizerate.me/skill/english/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:18 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cgi</title>
+      <link>http://erik-aouizerate.me/xp/cgi/</link>
+      <pubDate>Tue, 29 Sep 2015 19:49:39 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/xp/cgi/</guid>
+      <description> Programmation d&amp;rsquo;un moteur générique de workflow  Conception et force de proposition pour répondre aux besoins du client Création d&amp;rsquo;une application de test appliquée au moteur générique Réalisation d&amp;rsquo;une interface web ergonomique pour les utilisateurs Optimisation du code pour répondre aux contraintes de performance Technologies utilisées : javascript, angularJS, PLsql, svn  Suivi de projet  Préparation et participation aux comités de pilotage Gestion de la relation client et interlocuteur principal des utilisateurs Support de niveau 2 et interaction en anglais avec les collaborateurs Capitalisation et transfert des compétences   </description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>http://erik-aouizerate.me/skill/javascript/</link>
+      <pubDate>Tue, 29 Sep 2015 22:44:57 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MeetMusic</title>
+      <link>http://erik-aouizerate.me/project/meetmusic/</link>
+      <pubDate>Tue, 29 Sep 2015 19:42:20 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/project/meetmusic/</guid>
+      <description>MeetMusic est une playlist collaborative grâce à laquelle chacun peut facilement et via n&amp;rsquo;importe quel terminal connecté ajouter ou enlever une musique.
+Le cas d&amp;rsquo;utilisation est le suivant :
+ Un terminal est le propriétaire de la playlist, c&amp;rsquo;est lui qui diffusera le son et aura certains privilèges Les autres terminaux sont des contributeurs et peuvent modifier la playlist  Afin de simplifier l&amp;rsquo;utilisation de cette application, il suffit de partager l&amp;rsquo;url de la playlist pour y accéder et la modifier.</description>
+    </item>
+    
+    <item>
+      <title>angular</title>
+      <link>http://erik-aouizerate.me/skill/angular/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:27 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sites vitrines</title>
+      <link>http://erik-aouizerate.me/project/sitesvitrines/</link>
+      <pubDate>Tue, 29 Sep 2015 19:42:20 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/project/sitesvitrines/</guid>
+      <description>J&amp;rsquo;ai utilisé le générateur de site statique hugo afin de créer des sites vitrines.
+Ces sites peuvent être hébergés gratuitement sur différentes plateformes car ils ne nécessitent pas de backend. De plus, la sécurité y est accrue dû à la simplicité du système.
+J&amp;rsquo;ai donc réalisé mon site personnel ainsi que le site d&amp;rsquo;un ami travaillant dans les arts et spectacles : Manoël Mathis.
+Cette technologie étant plutôt reservée à des développeurs, j&amp;rsquo;ai donc aussi rédigé une documentation afin de faciliter son utilisation : docs.</description>
+    </item>
+    
+    <item>
+      <title>d3</title>
+      <link>http://erik-aouizerate.me/skill/d3/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:27 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/d3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>http://erik-aouizerate.me/skill/java/</link>
+      <pubDate>Thu, 01 Oct 2015 17:35:21 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>http://erik-aouizerate.me/skill/android/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:32 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://erik-aouizerate.me/skill/linux/</link>
+      <pubDate>Fri, 09 Oct 2015 14:12:41 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>http://erik-aouizerate.me/skill/sql/</link>
+      <pubDate>Fri, 09 Oct 2015 14:15:22 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>http://erik-aouizerate.me/skill/git/</link>
+      <pubDate>Fri, 09 Oct 2015 14:08:15 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>http://erik-aouizerate.me/skill/css/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:36 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rtc</title>
+      <link>http://erik-aouizerate.me/skill/rtc/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:21 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/rtc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nosql</title>
+      <link>http://erik-aouizerate.me/skill/nosql/</link>
+      <pubDate>Fri, 09 Oct 2015 14:15:13 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/nosql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>node</title>
+      <link>http://erik-aouizerate.me/skill/node/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:21 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blockchain</title>
+      <link>http://erik-aouizerate.me/skill/blockchain/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:21 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>http://erik-aouizerate.me/skill/python/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:25 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/skill/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>master</title>
+      <link>http://erik-aouizerate.me/education/master/</link>
+      <pubDate>Tue, 29 Sep 2015 22:45:11 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/education/master/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>middle</title>
+      <link>http://erik-aouizerate.me/xp/middle/</link>
+      <pubDate>Tue, 29 Sep 2015 19:49:39 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/xp/middle/</guid>
+      <description> Réalisation d&amp;rsquo;un moteur de persistance dynamique orienté objet  Développement du module d&amp;rsquo;immutabilité des objets Mise en place des contraintes d&amp;rsquo;intégrité du système Implémentation des jeux de tests Rédaction des rapports de recherche : rapport 1 / rapport 2 Technologies utilisées : java 8, git  Développement du SI interne  Réalisation du module de gestion de la planification des interventions Amélioration de la qualité du code à l&amp;rsquo;aide de sonar Collaboration, échange et entraide avec les autre équipes Technologies utilisées : java 5, jsf 2, ejb3, svn, jira   </description>
+    </item>
+    
+    <item>
+      <title>DataGraph</title>
+      <link>http://erik-aouizerate.me/project/datagraph/</link>
+      <pubDate>Tue, 29 Sep 2015 19:42:20 +0200</pubDate>
+      
+      <guid>http://erik-aouizerate.me/project/datagraph/</guid>
+      <description>J&amp;rsquo;ai imaginé un CV interactif permettant à mes futurs collaborateurs de parcourir et de visualiser mes connaissances de manière simple et concise.
+Pour cela, l&amp;rsquo;information peut être filtrée de manière chronologique et thématique.
+Trois outils sont à votre disposition :
+ Vous pouvez explorer mes compétences grace a mon CV interactif
+ Vous pouvez créer votre propre CV interactif grâce au data-graph editor
+ Vous pouvez visualiser votre création grâce au data-graph visualisator  Le code source est disponible sur GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>

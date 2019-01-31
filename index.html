@@ -10,13 +10,11 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/app.min.css" >
 	<link href='https://fonts.googleapis.com/css?family=Montserrat|Amaranth' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="js/app.min.js"></script>
 </head>
 <body>
 
 
-
-<header id="#home">
+<header id="home">
     <input type="checkbox" name="menu-toggle" id="menu-toggle" />
 <div id="nav-container">
     <div class="title-container">
@@ -82,19 +80,23 @@
     </nav>
 </div>
 
-    <img id="avatar" src="img/me.jpg" />
+</header>
+<section>
+    <div id="presentation">
+        <article id="title">
+            <img id="avatar" src="img/me.jpg" />
     <div id="intro">
         <h3>Erik Aouizerate</h3>
         <h3>développeur,</h3><h3>curieux,</h3><h3>interactif.</h3>
     </div>
-</header>
-<section>
-    <article id="about">
-        <span><h2><i class="fa fa-asterisk"></i>A propos</h2></span>
-<p>Interessé et touche à tout, j'aime echanger et apprendre de la diversité de mon entourage.</p>
-<p>Je développe actuellement une serie de projets personnels dans le but d'offrir de nouvelles expériences utilisateurs. Afin de pouvoir me consacrer entierement à mon activité, je ne recherche pas d'emploi dans l'immédiat.</p>
-<p>Mon état d'esprit du moment : dissociation du travail de la rémunération - ou - comment garantir le plaisir au travail.</p>
-    </article>
+        </article>
+        <article id="about">
+            <span><h2><i class="fa fa-asterisk"></i>A propos</h2></span>
+<p>Intéressé et touche à tout, j'aime échanger et apprendre de la diversité de mon entourage.</p>
+<p>Je développe actuellement une serie de projets personnels dans le but d'offrir de nouvelles expériences utilisateurs. J'explore les technologies qui m'interessent en alliant curiosité et interêts professionnels.</p>
+<p>Je cherche avant tout à apporter du sens à mon travail, mon état d'esprit du moment : responsabilité citoyenne, éthique et nouvelle forme de travail.</p>
+        </article>
+    </div>
     <article id="projects">
         <h2><i class="fa fa-paper-plane"></i>Projets</h2>
 
@@ -105,7 +107,125 @@
 	
 
 	
-		<h3><i class="fa fa-arrow-right"></i>DataGraph</h3>
+
+	
+
+	
+		<h3><i class="fa fa-arrow-right"></i>MeetMusic
+		</h3>
+		
+		<div class="project-content">
+			<div class="project-image-container">
+				<div class="project-image">
+				
+					<div>
+						<img class="project" src="img/projects/meetMusic.png"/>
+					</div>
+				
+					<div>
+						<img class="project" src="img/projects/meetMusic_2.png"/>
+					</div>
+				
+					<div>
+						<img class="project" src="img/projects/meetMusic_3.png"/>
+					</div>
+				
+				</div>
+			</div>
+			<div>
+			<h5><i class="fa fa-quote-left"></i>Créer et utiliser une playlist musicale collaborative et décentralisée.<i class="fa fa-quote-right"></i></h5>
+					<p><a href="http://erik-aouizerate.me/meetMusic/">MeetMusic</a> est une playlist collaborative grâce à laquelle chacun peut facilement et via n&rsquo;importe quel terminal connecté ajouter ou enlever une musique.</p>
+
+<p>Le cas d&rsquo;utilisation est le suivant :</p>
+
+<ul>
+<li>Un terminal est le propriétaire de la playlist, c&rsquo;est lui qui diffusera le son et aura certains privilèges</li>
+<li>Les autres terminaux sont des contributeurs et peuvent modifier la playlist</li>
+</ul>
+
+<p>Afin de simplifier l&rsquo;utilisation de cette application, il suffit de partager l&rsquo;url de la playlist pour y accéder et la modifier.<br />
+On peut ajouter des musiques de youtube mais aussi des fichiers mp3 stockés sur le terminal (pc ou téléphone par exemple).</p>
+
+<p>Le transfert s&rsquo;effectue en peer-to-peer via la technologie <a href="https://webrtc.org/">webRTC</a>.<br />
+Ce projet présente quelques limites :</p>
+
+<ul>
+<li>La technologie est jeune et n&rsquo;est pas complètement implémentée dans les navigateurs (Safari par exemple)</li>
+<li>Il semblerait que les opérateurs téléphoniques n&rsquo;autorisent pas encore ce type de connexion sur les réseaux mobiles (3G ou 4G)</li>
+<li>L&rsquo;absence de serveur faisant office d&rsquo;autorité centrale oblige à utiliser la technologie <a href="https://bitcoin.org/bitcoin.pdf">bitcoin / blockchain</a> et notamment <a href="https://www.ethereum.org/">ethereum</a> pour garantir l&rsquo;identité du propriétaire de la playlist</li>
+</ul>
+
+<p>Le code source est disponible sur <a href="https://github.com/mejjjor/meetMusic">GitHub</a>.</p>
+
+			</div>
+		</div>
+	
+
+	
+
+	
+		<h3><i class="fa fa-arrow-right"></i>Sites vitrines
+		</h3>
+		
+		<div class="project-content">
+			<div class="project-image-container">
+				<div class="project-image">
+				
+					<div>
+						<img class="project" src="img/projects/vitrine_erik.png"/>
+					</div>
+				
+					<div>
+						<img class="project" src="img/projects/vitrine_mano.png"/>
+					</div>
+				
+				</div>
+			</div>
+			<div>
+			<h5><i class="fa fa-quote-left"></i>Créer un site vitrine facilement administrable par l&#39;utilisateur.<i class="fa fa-quote-right"></i></h5>
+					<p>J&rsquo;ai utilisé le générateur de site statique <a href="https://gohugo.io/">hugo</a> afin de créer des sites vitrines.</p>
+
+<p>Ces sites peuvent être hébergés gratuitement sur différentes plateformes car ils ne nécessitent pas de backend. De plus, la sécurité y est accrue dû à la simplicité du système.</p>
+
+<p>J&rsquo;ai donc réalisé mon <a href="http://erik-aouizerate.me">site personnel</a> ainsi que le site d&rsquo;un ami travaillant dans les arts et spectacles : <a href="http://www.manoel-artiste.fr">Manoël Mathis</a>.</p>
+
+<p>Cette technologie étant plutôt reservée à des développeurs, j&rsquo;ai donc aussi rédigé une documentation afin de faciliter son utilisation : <a href="http://erik-aouizerate.me/docs/mano/">docs</a>.</p>
+
+			</div>
+		</div>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		<h3><i class="fa fa-arrow-right"></i>DataGraph
+		</h3>
 		
 		<div class="project-content">
 			<div class="project-image-container">
@@ -122,78 +242,28 @@
 				</div>
 			</div>
 			<div>
-			<h5><i class="fa fa-quote-left"></i>Créer et render compréhensible une arborescence complexe.<i class="fa fa-quote-right"></i></h5>
-					<p>J&rsquo;ai imaginé un CV intéractif permettant à mes futurs collaborateurs de parcourir et de visualiser mes connaissances de manière simple et concise.<br />
+			<h5><i class="fa fa-quote-left"></i>Créer et rendre compréhensible une arborescence complexe.<i class="fa fa-quote-right"></i></h5>
+					<p>J&rsquo;ai imaginé un CV interactif permettant à mes futurs collaborateurs de parcourir et de visualiser mes connaissances de manière simple et concise.<br />
 Pour cela, l&rsquo;information peut être filtrée de manière chronologique et thématique.</p>
 
-<p>Vous pouvez dès à présent naviguer dans mes compétences grace au <a href="https://mejjjor.github.io/dataGraphExample/">data-graph visualizator</a> ou encore créer le votre grâce au <a href="https://mejjjor.github.io/dataGraphExample/">data-graph editor</a>.<br />
-Le code source est disponible sur <a href="https://github.com/mejjjor/dataGraph">GitHub</a>.</p>
+<p>Trois outils sont à votre disposition :</p>
+
+<ul>
+<li>Vous pouvez explorer mes compétences grace a mon <a href="https://mejjjor.github.io/dataGraphExample/">CV interactif</a><br /></li>
+<li>Vous pouvez créer votre propre CV interactif grâce au <a href="https://mejjjor.github.io/dataGraphExample/editor.html">data-graph editor</a><br /></li>
+<li>Vous pouvez visualiser votre création grâce au <a href="https://mejjjor.github.io/dataGraphExample/visualisator.html">data-graph visualisator</a></li>
+</ul>
+
+<p>Le code source est disponible sur <a href="https://github.com/mejjjor/dataGraph">GitHub</a>.</p>
 
 			</div>
 		</div>
-	
-
-	
-
-	
-
-	
-
-	
-		<h3><i class="fa fa-arrow-right"></i>Sites vitrines</h3>
-		
-		<div class="project-content">
-			<div class="project-image-container">
-				<div class="project-image">
-				
-					<div>
-						<img class="project" src="img/projects/vitrine_mano.png"/>
-					</div>
-				
-					<div>
-						<img class="project" src="img/projects/vitrine_erik.png"/>
-					</div>
-				
-				</div>
-			</div>
-			<div>
-			<h5><i class="fa fa-quote-left"></i>Responsive, flat design et modularité.<i class="fa fa-quote-right"></i></h5>
-					<p>Voici une série de sites vitrines permettant aux proprietaires de modifier simplement le contenu et d&rsquo;être autonomne. J&rsquo;ai utilisé le générateur de site <a href="https://gohugo.io/">Hugo</a>.<br />
-- <a href="https://sophie.com/">Sophie Aouizerate</a><br />
-- <a href="http://manoel-mathis.fr/">Le jonglage dans tous ses états</a></p>
-
-			</div>
-		</div>
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
 	
 
     </article>
     <div>
-            <article id="experiences">
-                	<h2><i class="fa fa-suitcase"></i>Expériences</h2>
+        <article id="experiences">
+            	<h2><i class="fa fa-suitcase"></i>Expériences</h2>
 	<div class="flex-container">
 		
 			
@@ -201,45 +271,11 @@ Le code source est disponible sur <a href="https://github.com/mejjjor/dataGraph"
 			
 		
 			
-				<div class="flex-element">
-					<h3>développeur J2EE chez Middleware factory</h3>
-					<h5>Client: Globecast</h5>
-					<h6>Paris (75) &mdash; septembre 2014 &mdash; juin 2015 &mdash; 10 mois</h6>
-					<ul>
-<li>Réalisation d&rsquo;un moteur de persistance dynamique orienté objet
-
-<ul>
-<li>Développement du module d&rsquo;imutabilité des objets</li>
-<li>Mise en place des contraintes d&rsquo;intégrités du système</li>
-<li>Implémentation des jeux de tests</li>
-<li>Redaction des rapports de recherche : <a href="./documents/CIR_EA3EA2">rapport 1</a> / <a href="./documents/CIR_EA3">rapport 2</a></li>
-</ul></li>
-<li>Développement du SI interne
-
-<ul>
-<li>Réalisation du module de gestion de la planification des interventions</li>
-<li>Amélioration de la qualit du code à l&rsquo;aide de <a href="http://www.sonarqube.org/">sonar</a></li>
-<li>Colaboration, échange et entraide avec les autre équipes</li>
-</ul></li>
-</ul>
-
-				</div>
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
 		
 			
 				<div class="flex-element">
-					<h3>Analyste développeur chez CGI</h3>
-					<h5>Client: ST Microelectronics</h5>
+					<h3>Analyste développeur chez CGI </h3>
+					<h5>Client : ST Microelectronics</h5>
 					<h6>Grenoble (38) &mdash; avril 2013 &mdash; septembre 2014 &mdash; 18 mois</h6>
 					<ul>
 <li>Programmation d&rsquo;un moteur générique de workflow
@@ -247,8 +283,9 @@ Le code source est disponible sur <a href="https://github.com/mejjjor/dataGraph"
 <ul>
 <li>Conception et force de proposition pour répondre aux besoins du client</li>
 <li>Création d&rsquo;une application de test appliquée au moteur générique</li>
-<li>Réalisation d&rsquo;une interface web ergonomique en AngularJS pour les utilisateurs</li>
+<li>Réalisation d&rsquo;une interface web ergonomique pour les utilisateurs</li>
 <li>Optimisation du code pour répondre aux contraintes de performance</li>
+<li>Technologies utilisées : javascript, angularJS, PLsql, svn</li>
 </ul></li>
 <li>Suivi de projet
 
@@ -285,49 +322,101 @@ Le code source est disponible sur <a href="https://github.com/mejjjor/dataGraph"
 		
 			
 		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<div class="flex-element">
+					<h3>Développeur J2EE chez Middleware factory </h3>
+					<h5>Client : Globecast</h5>
+					<h6>Paris (75) &mdash; septembre 2014 &mdash; juin 2015 &mdash; 10 mois</h6>
+					<ul>
+<li>Réalisation d&rsquo;un moteur de persistance dynamique orienté objet
+
+<ul>
+<li>Développement du module d&rsquo;immutabilité des objets</li>
+<li>Mise en place des contraintes d&rsquo;intégrité du système</li>
+<li>Implémentation des jeux de tests</li>
+<li>Rédaction des rapports de recherche : <a href="./documents/CIR_EA3EA2">rapport 1</a> / <a href="./documents/CIR_EA3">rapport 2</a></li>
+<li>Technologies utilisées : java 8, git</li>
+</ul></li>
+<li>Développement du SI interne
+
+<ul>
+<li>Réalisation du module de gestion de la planification des interventions</li>
+<li>Amélioration de la qualité du code à l&rsquo;aide de <a href="http://www.sonarqube.org/">sonar</a></li>
+<li>Collaboration, échange et entraide avec les autre équipes</li>
+<li>Technologies utilisées : java 5, jsf 2, ejb3, svn, jira</li>
+</ul></li>
+</ul>
+
+				</div>
+			
+		
+			
+		
 	</div>	
-            </article>
+        </article>
         <div id="bottom-content">
             <article id="skills">
                 <h2><i class="fa fa-flask"></i>Compétences</h2>
 <div>
-     
+         
     <div class="skill">
         <div class="flex-container">
             <h4>
-			<i class="fa fa-language"></i>Français</h4><span>langue maternelle</span>
-        </div>
-        <div class="progress-bar"><span style="width: 100%"></span></div>
-    </div>
-                
-    <div class="skill">
-        <div class="flex-container">
-            <h4>
-			<i class="fa fa-language"></i>Anglais</h4><span>courant</span>
+			<i class="fa fa-language"></i>Anglais
+			</h4>
+            <span>courant</span>
         </div>
         <div class="progress-bar"><span style="width: 65%"></span></div>
     </div>
-          
+        
     <div class="skill">
         <div class="flex-container">
             <h4><img src=img/skills/javascript.svg>
-			Javascript</h4><span>confortable</span>
+			Javascript
+			</h4>
+            <span>confortable</span>
+        </div>
+        <div class="progress-bar"><span style="width: 70%"></span></div>
+    </div>
+        
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/angular-icon.svg>
+			Angular
+			</h4>
+            <span>confortable</span>
+        </div>
+        <div class="progress-bar"><span style="width: 75%"></span></div>
+    </div>
+        
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/d3.png>
+			D3js
+			</h4>
+            <span>confortable</span>
         </div>
         <div class="progress-bar"><span style="width: 70%"></span></div>
     </div>
       
     <div class="skill">
         <div class="flex-container">
-            <h4><img src=img/skills/angular-icon.svg>
-			Angular</h4><span>confortable</span>
-        </div>
-        <div class="progress-bar"><span style="width: 75%"></span></div>
-    </div>
-      
-    <div class="skill">
-        <div class="flex-container">
             <h4><img src=img/skills/java.svg>
-			Java</h4><span>expert</span>
+			Java
+			</h4>
+            <span>expert</span>
         </div>
         <div class="progress-bar"><span style="width: 80%"></span></div>
     </div>
@@ -335,47 +424,69 @@ Le code source est disponible sur <a href="https://github.com/mejjjor/dataGraph"
     <div class="skill">
         <div class="flex-container">
             <h4><img src=img/skills/android-icon.svg>
-			Android</h4><span>bon</span>
+			Android
+			</h4>
+            <span>bon</span>
         </div>
         <div class="progress-bar"><span style="width: 50%"></span></div>
     </div>
       
     <div class="skill">
         <div class="flex-container">
-            <h4><img src=img/skills/css-3.svg>
-			CSS 3</h4><span>bon</span>
-        </div>
-        <div class="progress-bar"><span style="width: 60%"></span></div>
-    </div>
-      
-    <div class="skill">
-        <div class="flex-container">
             <h4>
-			<i class="fa fa-linux"></i>Linux</h4><span>bon</span>
+			<i class="fa fa-linux"></i>Linux
+			</h4>
+            <span>bon</span>
         </div>
         <div class="progress-bar"><span style="width: 65%"></span></div>
     </div>
       
     <div class="skill">
         <div class="flex-container">
-            <h4><img src=img/skills/git-icon.svg>
-			Git</h4><span>débutant</span>
-        </div>
-        <div class="progress-bar"><span style="width: 30%"></span></div>
-    </div>
-      
-    <div class="skill">
-        <div class="flex-container">
             <h4>
-			<i class="fa fa-database"></i>Sql</h4><span>bon</span>
+			<i class="fa fa-database"></i>Sql
+			</h4>
+            <span>bon</span>
         </div>
         <div class="progress-bar"><span style="width: 70%"></span></div>
     </div>
       
     <div class="skill">
         <div class="flex-container">
+            <h4><img src=img/skills/git-icon.svg>
+			Git
+			</h4>
+            <span>débutant</span>
+        </div>
+        <div class="progress-bar"><span style="width: 30%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/css-3.svg>
+			CSS 3
+			</h4>
+            <span>bon</span>
+        </div>
+        <div class="progress-bar"><span style="width: 60%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/webrtc.png>
+			Web rtc
+			</h4>
+            <span>bon</span>
+        </div>
+        <div class="progress-bar"><span style="width: 45%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
             <h4>
-			<i class="fa fa-database"></i>No Sql</h4><span>débutant</span>
+			<i class="fa fa-database"></i>No Sql
+			</h4>
+            <span>débutant</span>
         </div>
         <div class="progress-bar"><span style="width: 5%"></span></div>
     </div>
@@ -383,19 +494,33 @@ Le code source est disponible sur <a href="https://github.com/mejjjor/dataGraph"
     <div class="skill">
         <div class="flex-container">
             <h4><img src=img/skills/nodejs-icon.svg>
-			Node js</h4><span>débutant</span>
+			Node js
+			</h4>
+            <span>débutant</span>
         </div>
         <div class="progress-bar"><span style="width: 10%"></span></div>
     </div>
       
     <div class="skill">
         <div class="flex-container">
-            <h4><img src=img/skills/python.svg>
-			Python</h4><span>débutant</span>
+            <h4><img src=img/skills/blockchain.png>
+			Blockchain
+			</h4>
+            <span>intéressé</span>
         </div>
-        <div class="progress-bar"><span style="width: 10%"></span></div>
+        <div class="progress-bar"><span style="width: 20%"></span></div>
     </div>
-     
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/python.svg>
+			Python
+			</h4>
+            <span>intéressé</span>
+        </div>
+        <div class="progress-bar"><span style="width: 5%"></span></div>
+    </div>
+           
 </div>
 
             </article>
@@ -403,20 +528,6 @@ Le code source est disponible sur <a href="https://github.com/mejjjor/dataGraph"
                 <article id="education">
                     <h2><i class="fa fa-graduation-cap"></i>Formation</h2>
 <table>
-
-	
-
-	
-			<tr>
-				<td class="date">2013</td>
-				<td class="content	"><strong>Master</strong> Web Informatique et Connaissances (WIC) &mdash; Université Grenoble II</td>
-			</tr>
-		
-	
-
-	
-
-	
 
 	
 			<tr>
@@ -462,6 +573,26 @@ Le code source est disponible sur <a href="https://github.com/mejjjor/dataGraph"
 
 	
 
+	
+
+	
+
+	
+
+	
+
+	
+			<tr>
+				<td class="date">2013</td>
+				<td class="content	"><strong>Master</strong> Web Informatique et Connaissances (WIC) &mdash; Université Grenoble II</td>
+			</tr>
+		
+	
+
+	
+
+	
+
 </table>
 
                 </article>
@@ -483,8 +614,26 @@ Le code source est disponible sur <a href="https://github.com/mejjjor/dataGraph"
 
 
 <footer>
-2015 - Erik Aouizerate - Powered by Hugo
+    2015 - Erik Aouizerate - Powered by <a href="https://gohugo.io/">Hugo</a>
 </footer>
 </body>
+<script type="text/javascript" src="js/app.min.js"></script>
+<script>
+(function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-74349110-1', 'auto');
+ga('send', 'pageview');
+</script>
+
 </html>
 
