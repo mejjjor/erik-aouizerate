@@ -7,7 +7,8 @@ weight=20
 images = ["img/projects/meetMusic.png","img/projects/meetMusic_2.png","img/projects/meetMusic_3.png"]
 
 +++
-[MeetMusic](http://erik-aouizerate.me/meetMusic/) est une playlist collaborative grâce à laquelle chacun peut facilement et via n'importe quel terminal connecté ajouter ou enlever une musique.
+
+[MeetMusic](https://jolly-goldstine-e16186.netlify.com/) est une playlist collaborative grâce à laquelle chacun peut facilement et via n'importe quel terminal connecté ajouter ou enlever une musique.
 
 Le cas d'utilisation est le suivant :
 
