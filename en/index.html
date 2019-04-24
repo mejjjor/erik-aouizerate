@@ -10,10 +10,8 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/app.min.css" >
 	<link href='https://fonts.googleapis.com/css?family=Montserrat|Amaranth' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="js/app.min.js"></script>
 </head>
 <body>
-
 
 <header id="#home">
     <input type="checkbox" name="menu-toggle" id="menu-toggle" />
@@ -30,7 +28,7 @@
     <nav>
         <h3 id="menu-lang-desktop">
             
-            <a href="/erik-aouizerate">
+            <a href="/">
                 <span>en</span>        
                 <i class="fa fa-toggle-on fa-rotate-270"></i>
                 <i class="fa fa-toggle-on fa-rotate-90"></i>
@@ -68,7 +66,7 @@
             <li id="menu-lang">
                 <h3>
                     
-                    <a href="/erik-aouizerate">
+                    <a href="/">
                         en        
                         <i class="fa fa-toggle-on fa-flip-horizontal"></i>
                         fr
@@ -81,47 +79,414 @@
     </nav>
 </div>
 
-    <img id="avatar" src="img/me.jpg" />
-    <div id="intro">
-        <h3>Erik Aouizerate</h3>
-        <h3>développeur,</h3><h3>curieux,</h3><h3>interactif.</h3>
-    </div>
 </header>
 <section>
-    <article id="about">
-        <span><h2><i class="fa fa-asterisk"></i>About</h2></span>
-<p>Interessé et touche à tout, j'aime echanger et apprendre de la diversité de mon entourage.</p>
-<p>Je développe actuellement une serie de projets personnels dans le but d'offrir de nouvelles expériences utilisateurs. Afin de pouvoir me consacrer entierement à mon activité, je ne recherche pas d'emploi dans l'immédiat.</p>
-<p>Mon état d'esprit du moment : dissociation du travail de la rémunération - ou - comment garantir le plaisir au travail.</p>
-    </article>
+    <div id="presentation">
+        <article id="title">
+            <img id="avatar" src="img/me.jpg" />
+    <div id="intro">
+        <h3>Erik Aouizerate</h3>
+        <h3>developer,</h3><h3>curious,</h3><h3>interactive.</h3>
+    </div>
+        </article>
+        <article id="about">
+            <span><h2><i class="fa fa-asterisk"></i>About</h2></span>
+<p>I'm curious all rounder, who like to learn from people diversity.</p>
+<p>I'm currently developping a set of personal projects to offer new user interaction. I explore technologies that I'm interested in, mixing curiosity and profesionnal interests.</p>
+<p>I'm searching for meaning in my job, which is: responsability, ethics and innovating work structure.</p>
+        </article>
+    </div>
     <article id="projects">
         <h2><i class="fa fa-paper-plane"></i>Projects</h2>
 
 	
 
+	
+
+	
+
+	
+
+	
+
+	
+		<h3><i class="fa fa-arrow-right"></i>MeetMusic</h3>
+		
+		<div class="project-content">
+			<div class="project-image-container">
+				<div class="project-image">
+				
+					<div>
+						<img class="project" src="img/projects/meetMusic.png"/>
+					</div>
+				
+					<div>
+						<img class="project" src="img/projects/meetMusic_2.png"/>
+					</div>
+				
+					<div>
+						<img class="project" src="img/projects/meetMusic_3.png"/>
+					</div>
+				
+				</div>
+			</div>
+			<div>
+			<h5><i class="fa fa-quote-left"></i>Create and use a collaborative and decentralized playlist.<i class="fa fa-quote-right"></i></h5>
+					<p><a href="http://erik-aouizerate.me/meetMusic/">MeetMusic</a> is a collaborative playlist allows to add or remove a music from any terminal.</p>
+
+<p>How to use this application :</p>
+
+<ul>
+<li>One terminal owns the playlist which commands the sound, as well as having certain privileges</li>
+<li>Other terminals are contributors and can edit playlist</li>
+</ul>
+
+<p>To simplify usage just share address to edit the playlist.<br />
+You can add song from youtube or mp3 directly from the terminal (computer or smartphone for exemple).</p>
+
+<p>It is a peer-to-peer transfert that use <a href="https://webrtc.org/">webRTC</a> technology.<br />
+This project have some limits:</p>
+
+<ul>
+<li>This technology is young and not fully implemented in browsers (safari for exemple)</li>
+<li>It does not work on mobile network (3G ou 4G)</li>
+<li>The lack of a central authority server forces to use <a href="https://bitcoin.org/bitcoin.pdf">bitcoin / blockchain</a> technology and in particular <a href="https://www.ethereum.org/">ethereum</a> to guarantee owner identity</li>
+</ul>
+
+<p>Source code available on <a href="https://github.com/mejjjor/dataGraph">GitHub</a>.</p>
+
+			</div>
+		</div>
+	
+
+	
+
+	
+		<h3><i class="fa fa-arrow-right"></i>Showcase websites</h3>
+		
+		<div class="project-content">
+			<div class="project-image-container">
+				<div class="project-image">
+				
+					<div>
+						<img class="project" src="img/projects/vitrine_erik.png"/>
+					</div>
+				
+					<div>
+						<img class="project" src="img/projects/vitrine_mano.png"/>
+					</div>
+				
+				</div>
+			</div>
+			<div>
+			<h5><i class="fa fa-quote-left"></i>Create a showcase web site that is easy to manage.<i class="fa fa-quote-right"></i></h5>
+					<p>I used the static site generator <a href="https://gohugo.io/">hugo</a> to create showcase web sites.</p>
+
+<p>This web site could be hosted on a free server due to the fact it doesn&rsquo;t use backend. Also the security is high because the system is really simple.</p>
+
+<p>I built my personal <a href="http://erik-aouizerate.me">web site</a> as well as my friend <a href="http://www.manoel-artiste.fr">Manoël Mathis</a> who works in arts.</p>
+
+<p>This technology is developer friendly, so I have created documentation to help : <a href="http://erik-aouizerate.me/docs/mano/">docs</a>.</p>
+
+			</div>
+		</div>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		<h3><i class="fa fa-arrow-right"></i>DataGraph</h3>
+		
+		<div class="project-content">
+			<div class="project-image-container">
+				<div class="project-image">
+				
+					<div>
+						<img class="project" src="img/projects/dataGraph.png"/>
+					</div>
+				
+					<div>
+						<img class="project" src="img/projects/dataGraph_2.png"/>
+					</div>
+				
+				</div>
+			</div>
+			<div>
+			<h5><i class="fa fa-quote-left"></i>Create and easily understand a complex tree structure.<i class="fa fa-quote-right"></i></h5>
+					<p>I have built an interactive CV to allow my future coworkers to navigate and visualize my skills in a simple and concise way.<br />
+Information can be filtered by date and by theme.</p>
+
+<p>Three tools are available:</p>
+
+<ul>
+<li>Explore my skills with my <a href="https://mejjjor.github.io/dataGraphExample/">interactive CV</a><br /></li>
+<li>Create your own CV with <a href="https://mejjjor.github.io/dataGraphExample/editor.html">data-graph editor</a><br /></li>
+<li>Visualise your own CV with <a href="https://mejjjor.github.io/dataGraphExample/visualisator.html">data-graph visualisator</a></li>
+</ul>
+
+<p>Source code available on <a href="https://github.com/mejjjor/dataGraph">GitHub</a>.</p>
+
+			</div>
+		</div>
+	
+
     </article>
     <div>
-            <article id="experiences">
-                	<h2><i class="fa fa-suitcase"></i>Experiences</h2>
+        <article id="experiences">
+            	<h2><i class="fa fa-suitcase"></i>Experiences</h2>
 	<div class="flex-container">
 		
 			
 		
+			
+		
+			
+		
+			
+				<div class="flex-element">
+					<h3>Developer at CGI</h3>
+					<h5>Client : ST Microelectronics</h5>
+					<h6>Grenoble (38) &mdash; 2013 April &mdash; 2014 September &mdash; 18 months</h6>
+					<ul>
+<li>Generic workflow engine development
+
+<ul>
+<li>Conception and proposition to fit custommer needs</li>
+<li>Create a test application and apply to generic engine</li>
+<li>Create a friendly user interface</li>
+<li>Optimisation to satisfy performance constraints</li>
+<li>Technologies : javascript, angularJS, PLsql, svn</li>
+</ul></li>
+<li>Projet monitoring
+
+<ul>
+<li>Preparation and participation to pilotage committee</li>
+<li>Custommer relation management and users main contact person</li>
+<li>Level 2 support and English communication with coworkers</li>
+<li>Capitalise and skills transfert</li>
+</ul></li>
+</ul>
+
+				</div>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<div class="flex-element">
+					<h3>developer J2EE at Middleware factory</h3>
+					<h5>Client : Globecast</h5>
+					<h6>Paris (75) &mdash; 2014 September &mdash; 2015 June &mdash; 10 months</h6>
+					<ul>
+<li>Realisation of an object oriented storage engine
+
+<ul>
+<li>Développement of immutability module</li>
+<li>Adding integrity constraint to the system</li>
+<li>Test set implementation</li>
+<li>Research repport writing : <a href="/documents/CIR_EA3EA2">repport 1</a> / <a href="/documents/CIR_EA3">repport 2</a></li>
+<li>Technologies : java 8, git</li>
+</ul></li>
+<li>Developpement of the information system
+
+<ul>
+<li>Realisation of the monitoring intervention module</li>
+<li>Code quality improvement with <a href="http://www.sonarqube.org/">sonar</a></li>
+<li>Cooperation, exchange and mutual help with others teams</li>
+<li>Technologies : java 5, jsf 2, ejb3, svn, jira</li>
+</ul></li>
+</ul>
+
+				</div>
+			
+		
+			
+		
 	</div>	
-            </article>
+        </article>
         <div id="bottom-content">
             <article id="skills">
                 <h2><i class="fa fa-flask"></i>Compétences</h2>
 <div>
-     
+         
+    <div class="skill">
+        <div class="flex-container">
+            <h4>
+			<i class="fa fa-language"></i>English</h4><span>fluent</span>
+        </div>
+        <div class="progress-bar"><span style="width: 65%"></span></div>
+    </div>
+        
     <div class="skill">
         <div class="flex-container">
             <h4><img src=img/skills/javascript.svg>
-			Javascript</h4><span>good</span>
+			Javascript</h4><span>confortable</span>
+        </div>
+        <div class="progress-bar"><span style="width: 70%"></span></div>
+    </div>
+        
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/angular-icon.svg>
+			Angular</h4><span>confortable</span>
+        </div>
+        <div class="progress-bar"><span style="width: 75%"></span></div>
+    </div>
+        
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/d3.png>
+			D3js</h4><span>confortable</span>
+        </div>
+        <div class="progress-bar"><span style="width: 70%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/java.svg>
+			Java</h4><span>expert</span>
+        </div>
+        <div class="progress-bar"><span style="width: 80%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/android-icon.svg>
+			Android</h4><span>good</span>
+        </div>
+        <div class="progress-bar"><span style="width: 50%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4>
+			<i class="fa fa-linux"></i>Linux</h4><span>good</span>
+        </div>
+        <div class="progress-bar"><span style="width: 65%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4>
+			<i class="fa fa-database"></i>Sql</h4><span>good</span>
+        </div>
+        <div class="progress-bar"><span style="width: 70%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/git-icon.svg>
+			Git</h4><span>beginner</span>
         </div>
         <div class="progress-bar"><span style="width: 30%"></span></div>
     </div>
-     
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/css-3.svg>
+			CSS 3</h4><span>good</span>
+        </div>
+        <div class="progress-bar"><span style="width: 60%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/webrtc.png>
+			Web rtc</h4><span>good</span>
+        </div>
+        <div class="progress-bar"><span style="width: 45%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4>
+			<i class="fa fa-database"></i>No Sql</h4><span>beginner</span>
+        </div>
+        <div class="progress-bar"><span style="width: 5%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/nodejs-icon.svg>
+			Node js</h4><span>beginner</span>
+        </div>
+        <div class="progress-bar"><span style="width: 10%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/blockchain.png>
+			Blockchain</h4><span>interested</span>
+        </div>
+        <div class="progress-bar"><span style="width: 20%"></span></div>
+    </div>
+      
+    <div class="skill">
+        <div class="flex-container">
+            <h4><img src=img/skills/python.svg>
+			Python</h4><span>interested</span>
+        </div>
+        <div class="progress-bar"><span style="width: 5%"></span></div>
+    </div>
+           
 </div>
 
             </article>
@@ -129,6 +494,68 @@
                 <article id="education">
                     <h2><i class="fa fa-graduation-cap"></i>Education</h2>
 <table>
+
+	
+			<tr>
+				<td class="date">2011</td>
+				<td class="content	"><strong>Bachler’s degree</strong> Mathématiques et Informatique Appliqués aux Sciences Sociales (MIASS) &mdash; Grenoble II university</td>
+			</tr>
+		
+	
+
+	
+			<tr>
+				<td class="date">2006</td>
+				<td class="content	"><strong>Licence</strong> Computing &mdash; Paris V university</td>
+			</tr>
+		
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+			<tr>
+				<td class="date">2013</td>
+				<td class="content	"><strong>Master&#39;s degree</strong> Web Informatique et Connaissances (WIC) &mdash; Grenoble II university</td>
+			</tr>
+		
+	
+
+	
 
 	
 
@@ -141,7 +568,7 @@
 	<li><i class="fa fa-envelope"></i>erik.aouizerate(at)gmail com</li>
 	<li><i class="fa fa-github"></i><a href="https://github.com/mejjjor">github.com/mejjjor</a></li>
 	<li><i class="fa fa-twitter"></i><a href="https://twitter.com/0x_erik">twitter.com/0x_erik</a></li>
-	<li><i class="fa fa-file-pdf-o"></i><a href="/documents/Erik_Aouizerate_CV.pdf" target="_blank">CV version pdf</a></li>
+	<li><i class="fa fa-file-pdf-o"></i><a href="/documents/Erik_Aouizerate_CV_en.pdf" target="_blank">CV pdf version</a></li>
 	
 
 </ul>
@@ -154,8 +581,26 @@
 
 
 <footer>
-2015 - Erik Aouizerate - Powered by Hugo
+    2015 - Erik Aouizerate - Powered by <a href="https://gohugo.io/">Hugo</a>
 </footer>
 </body>
+<script type="text/javascript" src="js/app.min.js"></script>
+<script>
+(function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-74349110-1', 'auto');
+ga('send', 'pageview');
+</script>
+
 </html>
 

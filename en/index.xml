@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ens on </title>
+    <link>/en/</link>
+    <description>Recent content in Ens on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 01 Oct 2015 14:03:10 +0200</lastBuildDate>
+    
+	<atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>licence</title>
+      <link>/en/education/licence/</link>
+      <pubDate>Thu, 01 Oct 2015 14:03:10 +0200</pubDate>
+      
+      <guid>/en/education/licence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iut</title>
+      <link>/en/education/iut/</link>
+      <pubDate>Thu, 01 Oct 2015 14:03:16 +0200</pubDate>
+      
+      <guid>/en/education/iut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>english</title>
+      <link>/en/skill/english/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:18 +0200</pubDate>
+      
+      <guid>/en/skill/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cgi</title>
+      <link>/en/xp/cgi/</link>
+      <pubDate>Tue, 29 Sep 2015 19:49:39 +0200</pubDate>
+      
+      <guid>/en/xp/cgi/</guid>
+      <description> Generic workflow engine development  Conception and proposition to fit custommer needs Create a test application and apply to generic engine Create a friendly user interface Optimisation to satisfy performance constraints Technologies : javascript, angularJS, PLsql, svn  Projet monitoring  Preparation and participation to pilotage committee Custommer relation management and users main contact person Level 2 support and English communication with coworkers Capitalise and skills transfert   </description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>/en/skill/javascript/</link>
+      <pubDate>Tue, 29 Sep 2015 22:44:57 +0200</pubDate>
+      
+      <guid>/en/skill/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MeetMusic</title>
+      <link>/en/project/meetmusic/</link>
+      <pubDate>Tue, 29 Sep 2015 19:42:20 +0200</pubDate>
+      
+      <guid>/en/project/meetmusic/</guid>
+      <description>MeetMusic is a collaborative playlist allows to add or remove a music from any terminal.
+How to use this application :
+ One terminal owns the playlist which commands the sound, as well as having certain privileges Other terminals are contributors and can edit playlist  To simplify usage just share address to edit the playlist.
+You can add song from youtube or mp3 directly from the terminal (computer or smartphone for exemple).</description>
+    </item>
+    
+    <item>
+      <title>angular</title>
+      <link>/en/skill/angular/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:27 +0200</pubDate>
+      
+      <guid>/en/skill/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Showcase websites</title>
+      <link>/en/project/sitesvitrines/</link>
+      <pubDate>Tue, 29 Sep 2015 19:42:20 +0200</pubDate>
+      
+      <guid>/en/project/sitesvitrines/</guid>
+      <description>I used the static site generator hugo to create showcase web sites.
+This web site could be hosted on a free server due to the fact it doesn&amp;rsquo;t use backend. Also the security is high because the system is really simple.
+I built my personal web site as well as my friend Manoël Mathis who works in arts.
+This technology is developer friendly, so I have created documentation to help : docs.</description>
+    </item>
+    
+    <item>
+      <title>d3</title>
+      <link>/en/skill/d3/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:27 +0200</pubDate>
+      
+      <guid>/en/skill/d3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>/en/skill/java/</link>
+      <pubDate>Thu, 01 Oct 2015 17:35:21 +0200</pubDate>
+      
+      <guid>/en/skill/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>/en/skill/android/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:32 +0200</pubDate>
+      
+      <guid>/en/skill/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/en/skill/linux/</link>
+      <pubDate>Fri, 09 Oct 2015 14:12:41 +0200</pubDate>
+      
+      <guid>/en/skill/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>/en/skill/sql/</link>
+      <pubDate>Fri, 09 Oct 2015 14:15:22 +0200</pubDate>
+      
+      <guid>/en/skill/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>/en/skill/git/</link>
+      <pubDate>Fri, 09 Oct 2015 14:08:15 +0200</pubDate>
+      
+      <guid>/en/skill/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>/en/skill/css/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:36 +0200</pubDate>
+      
+      <guid>/en/skill/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rtc</title>
+      <link>/en/skill/rtc/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:21 +0200</pubDate>
+      
+      <guid>/en/skill/rtc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nosql</title>
+      <link>/en/skill/nosql/</link>
+      <pubDate>Fri, 09 Oct 2015 14:15:13 +0200</pubDate>
+      
+      <guid>/en/skill/nosql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>node</title>
+      <link>/en/skill/node/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:21 +0200</pubDate>
+      
+      <guid>/en/skill/node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blockchain</title>
+      <link>/en/skill/blockchain/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:21 +0200</pubDate>
+      
+      <guid>/en/skill/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/en/skill/python/</link>
+      <pubDate>Fri, 02 Oct 2015 23:24:25 +0200</pubDate>
+      
+      <guid>/en/skill/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>master degree</title>
+      <link>/en/education/master/</link>
+      <pubDate>Tue, 29 Sep 2015 22:45:11 +0200</pubDate>
+      
+      <guid>/en/education/master/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>middle</title>
+      <link>/en/xp/middle/</link>
+      <pubDate>Tue, 29 Sep 2015 19:49:39 +0200</pubDate>
+      
+      <guid>/en/xp/middle/</guid>
+      <description> Realisation of an object oriented storage engine  Développement of immutability module Adding integrity constraint to the system Test set implementation Research repport writing : repport 1 / repport 2 Technologies : java 8, git  Developpement of the information system  Realisation of the monitoring intervention module Code quality improvement with sonar Cooperation, exchange and mutual help with others teams Technologies : java 5, jsf 2, ejb3, svn, jira   </description>
+    </item>
+    
+    <item>
+      <title>DataGraph</title>
+      <link>/en/project/datagraph/</link>
+      <pubDate>Tue, 29 Sep 2015 19:42:20 +0200</pubDate>
+      
+      <guid>/en/project/datagraph/</guid>
+      <description>I have built an interactive CV to allow my future coworkers to navigate and visualize my skills in a simple and concise way.
+Information can be filtered by date and by theme.
+Three tools are available:
+ Explore my skills with my interactive CV
+ Create your own CV with data-graph editor
+ Visualise your own CV with data-graph visualisator  Source code available on GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>
